@@ -1,0 +1,5532 @@
+{
+  "metadata": {
+    "title_zh": "离散数学及其应用",
+    "title_en": "Discrete Mathematics and Its Applications",
+    "edition": "8E",
+    "extracted_at": "2026-04-29",
+    "source": "目录扫描图（共 9 张）",
+    "schema": {
+      "id": "层级编号，例 '1' / '1.1' / '1.1.1' / '1.1.exercises' / '1.endmatter.glossary' / 'A'",
+      "type": "chapter | section | subsection | exercises | endmatter | appendix | frontmatter",
+      "level": "1=章, 2=节, 3=小节",
+      "title": "中文标题",
+      "page": "起始页码（int 或 null=图中不清晰）",
+      "parent_id": "父节点 id；章/前置/附录 = null",
+      "chapter": "归属章号（int 或 null）"
+    },
+    "notes": [
+      "page 为 null 表示扫描图中数字模糊或被截断，未来用纸书校对后回填",
+      "items 数组按目录顺序排列，可直接遍历用于插标签",
+      "frontmatter / backmatter 项可带 pdf_page（PDF 物理页 1-based），优先于 page + offset 计算"
+    ]
+  },
+  "items": [
+    {
+      "id": "frontmatter.publisher",
+      "type": "frontmatter",
+      "level": 1,
+      "title": "出版者的话",
+      "page": null,
+      "parent_id": null,
+      "chapter": null,
+      "pdf_page": 4
+    },
+    {
+      "id": "frontmatter.translator",
+      "type": "frontmatter",
+      "level": 1,
+      "title": "译者序",
+      "page": null,
+      "parent_id": null,
+      "chapter": null,
+      "pdf_page": 5
+    },
+    {
+      "id": "frontmatter.preface",
+      "type": "frontmatter",
+      "level": 1,
+      "title": "前言",
+      "page": null,
+      "parent_id": null,
+      "chapter": null,
+      "pdf_page": 6
+    },
+    {
+      "id": "frontmatter.online",
+      "type": "frontmatter",
+      "level": 1,
+      "title": "在线资源",
+      "page": null,
+      "parent_id": null,
+      "chapter": null,
+      "pdf_page": 13
+    },
+    {
+      "id": "frontmatter.tostudent",
+      "type": "frontmatter",
+      "level": 1,
+      "title": "致学生",
+      "page": null,
+      "parent_id": null,
+      "chapter": null,
+      "pdf_page": 15
+    },
+    {
+      "id": "frontmatter.author",
+      "type": "frontmatter",
+      "level": 1,
+      "title": "作者简介",
+      "page": null,
+      "parent_id": null,
+      "chapter": null,
+      "pdf_page": 18
+    },
+    {
+      "id": "frontmatter.symbols",
+      "type": "frontmatter",
+      "level": 1,
+      "title": "符号表",
+      "page": null,
+      "parent_id": null,
+      "chapter": null,
+      "pdf_page": 19
+    },
+    {
+      "id": "1",
+      "type": "chapter",
+      "level": 1,
+      "title": "基础：逻辑和证明",
+      "page": 1,
+      "parent_id": null,
+      "chapter": 1
+    },
+    {
+      "id": "1.1",
+      "type": "section",
+      "level": 2,
+      "title": "命题逻辑",
+      "page": 1,
+      "parent_id": "1",
+      "chapter": 1
+    },
+    {
+      "id": "1.1.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 1,
+      "parent_id": "1.1",
+      "chapter": 1
+    },
+    {
+      "id": "1.1.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "命题",
+      "page": 1,
+      "parent_id": "1.1",
+      "chapter": 1
+    },
+    {
+      "id": "1.1.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "条件语句",
+      "page": 4,
+      "parent_id": "1.1",
+      "chapter": 1
+    },
+    {
+      "id": "1.1.4",
+      "type": "subsection",
+      "level": 3,
+      "title": "复合命题的真值表",
+      "page": 7,
+      "parent_id": "1.1",
+      "chapter": 1
+    },
+    {
+      "id": "1.1.5",
+      "type": "subsection",
+      "level": 3,
+      "title": "逻辑运算符的优先级",
+      "page": 8,
+      "parent_id": "1.1",
+      "chapter": 1
+    },
+    {
+      "id": "1.1.6",
+      "type": "subsection",
+      "level": 3,
+      "title": "逻辑运算和比特运算",
+      "page": 8,
+      "parent_id": "1.1",
+      "chapter": 1
+    },
+    {
+      "id": "1.1.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 9,
+      "parent_id": "1.1",
+      "chapter": 1
+    },
+    {
+      "id": "1.2",
+      "type": "section",
+      "level": 2,
+      "title": "命题逻辑的应用",
+      "page": 15,
+      "parent_id": "1",
+      "chapter": 1
+    },
+    {
+      "id": "1.2.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 15,
+      "parent_id": "1.2",
+      "chapter": 1
+    },
+    {
+      "id": "1.2.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "语句翻译",
+      "page": 15,
+      "parent_id": "1.2",
+      "chapter": 1
+    },
+    {
+      "id": "1.2.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "系统规范说明",
+      "page": 16,
+      "parent_id": "1.2",
+      "chapter": 1
+    },
+    {
+      "id": "1.2.4",
+      "type": "subsection",
+      "level": 3,
+      "title": "布尔搜索",
+      "page": 16,
+      "parent_id": "1.2",
+      "chapter": 1
+    },
+    {
+      "id": "1.2.5",
+      "type": "subsection",
+      "level": 3,
+      "title": "逻辑谜题",
+      "page": 17,
+      "parent_id": "1.2",
+      "chapter": 1
+    },
+    {
+      "id": "1.2.6",
+      "type": "subsection",
+      "level": 3,
+      "title": "逻辑电路",
+      "page": 18,
+      "parent_id": "1.2",
+      "chapter": 1
+    },
+    {
+      "id": "1.2.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 20,
+      "parent_id": "1.2",
+      "chapter": 1
+    },
+    {
+      "id": "1.3",
+      "type": "section",
+      "level": 2,
+      "title": "命题等价式",
+      "page": 23,
+      "parent_id": "1",
+      "chapter": 1
+    },
+    {
+      "id": "1.3.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 23,
+      "parent_id": "1.3",
+      "chapter": 1
+    },
+    {
+      "id": "1.3.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "逻辑等价式",
+      "page": 23,
+      "parent_id": "1.3",
+      "chapter": 1
+    },
+    {
+      "id": "1.3.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "德·摩根律的运用",
+      "page": 25,
+      "parent_id": "1.3",
+      "chapter": 1
+    },
+    {
+      "id": "1.3.4",
+      "type": "subsection",
+      "level": 3,
+      "title": "构造新的逻辑等价式",
+      "page": 26,
+      "parent_id": "1.3",
+      "chapter": 1
+    },
+    {
+      "id": "1.3.5",
+      "type": "subsection",
+      "level": 3,
+      "title": "可满足性",
+      "page": 28,
+      "parent_id": "1.3",
+      "chapter": 1
+    },
+    {
+      "id": "1.3.6",
+      "type": "subsection",
+      "level": 3,
+      "title": "可满足性的应用",
+      "page": 28,
+      "parent_id": "1.3",
+      "chapter": 1
+    },
+    {
+      "id": "1.3.7",
+      "type": "subsection",
+      "level": 3,
+      "title": "可满足性问题求解",
+      "page": 30,
+      "parent_id": "1.3",
+      "chapter": 1
+    },
+    {
+      "id": "1.3.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 31,
+      "parent_id": "1.3",
+      "chapter": 1
+    },
+    {
+      "id": "1.4",
+      "type": "section",
+      "level": 2,
+      "title": "谓词和量词",
+      "page": 34,
+      "parent_id": "1",
+      "chapter": 1
+    },
+    {
+      "id": "1.4.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 34,
+      "parent_id": "1.4",
+      "chapter": 1
+    },
+    {
+      "id": "1.4.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "谓词",
+      "page": 34,
+      "parent_id": "1.4",
+      "chapter": 1
+    },
+    {
+      "id": "1.4.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "量词",
+      "page": 37,
+      "parent_id": "1.4",
+      "chapter": 1
+    },
+    {
+      "id": "1.4.4",
+      "type": "subsection",
+      "level": 3,
+      "title": "有限域上的量词",
+      "page": 39,
+      "parent_id": "1.4",
+      "chapter": 1
+    },
+    {
+      "id": "1.4.5",
+      "type": "subsection",
+      "level": 3,
+      "title": "受限域的量词",
+      "page": 39,
+      "parent_id": "1.4",
+      "chapter": 1
+    },
+    {
+      "id": "1.4.6",
+      "type": "subsection",
+      "level": 3,
+      "title": "量词的优先级",
+      "page": 40,
+      "parent_id": "1.4",
+      "chapter": 1
+    },
+    {
+      "id": "1.4.7",
+      "type": "subsection",
+      "level": 3,
+      "title": "变量绑定",
+      "page": 40,
+      "parent_id": "1.4",
+      "chapter": 1
+    },
+    {
+      "id": "1.4.8",
+      "type": "subsection",
+      "level": 3,
+      "title": "涉及量词的逻辑等价式",
+      "page": 40,
+      "parent_id": "1.4",
+      "chapter": 1
+    },
+    {
+      "id": "1.4.9",
+      "type": "subsection",
+      "level": 3,
+      "title": "量化表达式的否定",
+      "page": 41,
+      "parent_id": "1.4",
+      "chapter": 1
+    },
+    {
+      "id": "1.4.10",
+      "type": "subsection",
+      "level": 3,
+      "title": "语句到逻辑表达式的翻译",
+      "page": 42,
+      "parent_id": "1.4",
+      "chapter": 1
+    },
+    {
+      "id": "1.4.11",
+      "type": "subsection",
+      "level": 3,
+      "title": "系统规范说明中量词的使用",
+      "page": 43,
+      "parent_id": "1.4",
+      "chapter": 1
+    },
+    {
+      "id": "1.4.12",
+      "type": "subsection",
+      "level": 3,
+      "title": "选自路易斯·卡罗尔的例子",
+      "page": 44,
+      "parent_id": "1.4",
+      "chapter": 1
+    },
+    {
+      "id": "1.4.13",
+      "type": "subsection",
+      "level": 3,
+      "title": "逻辑程序设计",
+      "page": 45,
+      "parent_id": "1.4",
+      "chapter": 1
+    },
+    {
+      "id": "1.4.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 46,
+      "parent_id": "1.4",
+      "chapter": 1
+    },
+    {
+      "id": "1.5",
+      "type": "section",
+      "level": 2,
+      "title": "嵌套量词",
+      "page": 51,
+      "parent_id": "1",
+      "chapter": 1
+    },
+    {
+      "id": "1.5.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 51,
+      "parent_id": "1.5",
+      "chapter": 1
+    },
+    {
+      "id": "1.5.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "理解涉及嵌套量词的语句",
+      "page": 51,
+      "parent_id": "1.5",
+      "chapter": 1
+    },
+    {
+      "id": "1.5.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "量词的顺序",
+      "page": 52,
+      "parent_id": "1.5",
+      "chapter": 1
+    },
+    {
+      "id": "1.5.4",
+      "type": "subsection",
+      "level": 3,
+      "title": "数学语句到嵌套量词语句的翻译",
+      "page": 53,
+      "parent_id": "1.5",
+      "chapter": 1
+    },
+    {
+      "id": "1.5.5",
+      "type": "subsection",
+      "level": 3,
+      "title": "嵌套量词到自然语言的翻译",
+      "page": 54,
+      "parent_id": "1.5",
+      "chapter": 1
+    },
+    {
+      "id": "1.5.6",
+      "type": "subsection",
+      "level": 3,
+      "title": "汉语语句到逻辑表达式的翻译",
+      "page": 54,
+      "parent_id": "1.5",
+      "chapter": 1
+    },
+    {
+      "id": "1.5.7",
+      "type": "subsection",
+      "level": 3,
+      "title": "嵌套量词的否定",
+      "page": 55,
+      "parent_id": "1.5",
+      "chapter": 1
+    },
+    {
+      "id": "1.5.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 56,
+      "parent_id": "1.5",
+      "chapter": 1
+    },
+    {
+      "id": "1.6",
+      "type": "section",
+      "level": 2,
+      "title": "推理规则",
+      "page": 62,
+      "parent_id": "1",
+      "chapter": 1
+    },
+    {
+      "id": "1.6.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 62,
+      "parent_id": "1.6",
+      "chapter": 1
+    },
+    {
+      "id": "1.6.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "命题逻辑的有效论证",
+      "page": 62,
+      "parent_id": "1.6",
+      "chapter": 1
+    },
+    {
+      "id": "1.6.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "命题逻辑的推理规则",
+      "page": 63,
+      "parent_id": "1.6",
+      "chapter": 1
+    },
+    {
+      "id": "1.6.4",
+      "type": "subsection",
+      "level": 3,
+      "title": "使用推理规则建立论证",
+      "page": 65,
+      "parent_id": "1.6",
+      "chapter": 1
+    },
+    {
+      "id": "1.6.5",
+      "type": "subsection",
+      "level": 3,
+      "title": "消解律",
+      "page": 66,
+      "parent_id": "1.6",
+      "chapter": 1
+    },
+    {
+      "id": "1.6.6",
+      "type": "subsection",
+      "level": 3,
+      "title": "谬误",
+      "page": 66,
+      "parent_id": "1.6",
+      "chapter": 1
+    },
+    {
+      "id": "1.6.7",
+      "type": "subsection",
+      "level": 3,
+      "title": "量化命题的推理规则",
+      "page": 67,
+      "parent_id": "1.6",
+      "chapter": 1
+    },
+    {
+      "id": "1.6.8",
+      "type": "subsection",
+      "level": 3,
+      "title": "命题和量化命题推理规则的组合使用",
+      "page": 68,
+      "parent_id": "1.6",
+      "chapter": 1
+    },
+    {
+      "id": "1.6.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 69,
+      "parent_id": "1.6",
+      "chapter": 1
+    },
+    {
+      "id": "1.7",
+      "type": "section",
+      "level": 2,
+      "title": "证明导论",
+      "page": 72,
+      "parent_id": "1",
+      "chapter": 1
+    },
+    {
+      "id": "1.7.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 72,
+      "parent_id": "1.7",
+      "chapter": 1
+    },
+    {
+      "id": "1.7.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "一些专用术语",
+      "page": 72,
+      "parent_id": "1.7",
+      "chapter": 1
+    },
+    {
+      "id": "1.7.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "理解定理是如何陈述的",
+      "page": 73,
+      "parent_id": "1.7",
+      "chapter": 1
+    },
+    {
+      "id": "1.7.4",
+      "type": "subsection",
+      "level": 3,
+      "title": "证明定理的方法",
+      "page": 73,
+      "parent_id": "1.7",
+      "chapter": 1
+    },
+    {
+      "id": "1.7.5",
+      "type": "subsection",
+      "level": 3,
+      "title": "直接证明法",
+      "page": 73,
+      "parent_id": "1.7",
+      "chapter": 1
+    },
+    {
+      "id": "1.7.6",
+      "type": "subsection",
+      "level": 3,
+      "title": "反证法",
+      "page": 75,
+      "parent_id": "1.7",
+      "chapter": 1
+    },
+    {
+      "id": "1.7.7",
+      "type": "subsection",
+      "level": 3,
+      "title": "归谬证明法",
+      "page": 76,
+      "parent_id": "1.7",
+      "chapter": 1
+    },
+    {
+      "id": "1.7.8",
+      "type": "subsection",
+      "level": 3,
+      "title": "证明中的错误",
+      "page": 78,
+      "parent_id": "1.7",
+      "chapter": 1
+    },
+    {
+      "id": "1.7.9",
+      "type": "subsection",
+      "level": 3,
+      "title": "良好的开端",
+      "page": 79,
+      "parent_id": "1.7",
+      "chapter": 1
+    },
+    {
+      "id": "1.7.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 80,
+      "parent_id": "1.7",
+      "chapter": 1
+    },
+    {
+      "id": "1.8",
+      "type": "section",
+      "level": 2,
+      "title": "证明的方法和策略",
+      "page": 81,
+      "parent_id": "1",
+      "chapter": 1
+    },
+    {
+      "id": "1.8.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 81,
+      "parent_id": "1.8",
+      "chapter": 1
+    },
+    {
+      "id": "1.8.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "穷举证明法和分情形证明法",
+      "page": 81,
+      "parent_id": "1.8",
+      "chapter": 1
+    },
+    {
+      "id": "1.8.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "存在性证明",
+      "page": 84,
+      "parent_id": "1.8",
+      "chapter": 1
+    },
+    {
+      "id": "1.8.4",
+      "type": "subsection",
+      "level": 3,
+      "title": "唯一性证明",
+      "page": 86,
+      "parent_id": "1.8",
+      "chapter": 1
+    },
+    {
+      "id": "1.8.5",
+      "type": "subsection",
+      "level": 3,
+      "title": "证明策略",
+      "page": 87,
+      "parent_id": "1.8",
+      "chapter": 1
+    },
+    {
+      "id": "1.8.6",
+      "type": "subsection",
+      "level": 3,
+      "title": "寻找反例",
+      "page": 89,
+      "parent_id": "1.8",
+      "chapter": 1
+    },
+    {
+      "id": "1.8.7",
+      "type": "subsection",
+      "level": 3,
+      "title": "证明策略实践",
+      "page": 90,
+      "parent_id": "1.8",
+      "chapter": 1
+    },
+    {
+      "id": "1.8.8",
+      "type": "subsection",
+      "level": 3,
+      "title": "拼接",
+      "page": 90,
+      "parent_id": "1.8",
+      "chapter": 1
+    },
+    {
+      "id": "1.8.9",
+      "type": "subsection",
+      "level": 3,
+      "title": "开放问题的作用",
+      "page": 92,
+      "parent_id": "1.8",
+      "chapter": 1
+    },
+    {
+      "id": "1.8.10",
+      "type": "subsection",
+      "level": 3,
+      "title": "其他证明方法",
+      "page": 93,
+      "parent_id": "1.8",
+      "chapter": 1
+    },
+    {
+      "id": "1.8.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 94,
+      "parent_id": "1.8",
+      "chapter": 1
+    },
+    {
+      "id": "1.endmatter.glossary",
+      "type": "endmatter",
+      "level": 2,
+      "title": "关键术语和结论",
+      "page": 96,
+      "parent_id": "1",
+      "chapter": 1
+    },
+    {
+      "id": "1.endmatter.review",
+      "type": "endmatter",
+      "level": 2,
+      "title": "复习题",
+      "page": 97,
+      "parent_id": "1",
+      "chapter": 1
+    },
+    {
+      "id": "1.endmatter.supp",
+      "type": "endmatter",
+      "level": 2,
+      "title": "补充练习",
+      "page": 98,
+      "parent_id": "1",
+      "chapter": 1
+    },
+    {
+      "id": "1.endmatter.cs",
+      "type": "endmatter",
+      "level": 2,
+      "title": "计算机课题",
+      "page": 100,
+      "parent_id": "1",
+      "chapter": 1
+    },
+    {
+      "id": "1.endmatter.explore",
+      "type": "endmatter",
+      "level": 2,
+      "title": "计算和探索",
+      "page": 101,
+      "parent_id": "1",
+      "chapter": 1
+    },
+    {
+      "id": "1.endmatter.writing",
+      "type": "endmatter",
+      "level": 2,
+      "title": "写作课题",
+      "page": 101,
+      "parent_id": "1",
+      "chapter": 1
+    },
+    {
+      "id": "2",
+      "type": "chapter",
+      "level": 1,
+      "title": "基本结构：集合、函数、序列、求和与矩阵",
+      "page": 102,
+      "parent_id": null,
+      "chapter": 2
+    },
+    {
+      "id": "2.1",
+      "type": "section",
+      "level": 2,
+      "title": "集合",
+      "page": 102,
+      "parent_id": "2",
+      "chapter": 2
+    },
+    {
+      "id": "2.1.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 102,
+      "parent_id": "2.1",
+      "chapter": 2
+    },
+    {
+      "id": "2.1.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "文氏图",
+      "page": 104,
+      "parent_id": "2.1",
+      "chapter": 2
+    },
+    {
+      "id": "2.1.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "子集",
+      "page": 105,
+      "parent_id": "2.1",
+      "chapter": 2
+    },
+    {
+      "id": "2.1.4",
+      "type": "subsection",
+      "level": 3,
+      "title": "集合的大小",
+      "page": 106,
+      "parent_id": "2.1",
+      "chapter": 2
+    },
+    {
+      "id": "2.1.5",
+      "type": "subsection",
+      "level": 3,
+      "title": "幂集",
+      "page": 106,
+      "parent_id": "2.1",
+      "chapter": 2
+    },
+    {
+      "id": "2.1.6",
+      "type": "subsection",
+      "level": 3,
+      "title": "笛卡儿积",
+      "page": 107,
+      "parent_id": "2.1",
+      "chapter": 2
+    },
+    {
+      "id": "2.1.7",
+      "type": "subsection",
+      "level": 3,
+      "title": "使用带量词的集合符号",
+      "page": 109,
+      "parent_id": "2.1",
+      "chapter": 2
+    },
+    {
+      "id": "2.1.8",
+      "type": "subsection",
+      "level": 3,
+      "title": "真值集和量词",
+      "page": 109,
+      "parent_id": "2.1",
+      "chapter": 2
+    },
+    {
+      "id": "2.1.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 109,
+      "parent_id": "2.1",
+      "chapter": 2
+    },
+    {
+      "id": "2.2",
+      "type": "section",
+      "level": 2,
+      "title": "集合运算",
+      "page": 112,
+      "parent_id": "2",
+      "chapter": 2
+    },
+    {
+      "id": "2.2.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 112,
+      "parent_id": "2.2",
+      "chapter": 2
+    },
+    {
+      "id": "2.2.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "集合恒等式",
+      "page": 114,
+      "parent_id": "2.2",
+      "chapter": 2
+    },
+    {
+      "id": "2.2.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "扩展的并集和交集",
+      "page": 116,
+      "parent_id": "2.2",
+      "chapter": 2
+    },
+    {
+      "id": "2.2.4",
+      "type": "subsection",
+      "level": 3,
+      "title": "集合的计算机表示",
+      "page": 117,
+      "parent_id": "2.2",
+      "chapter": 2
+    },
+    {
+      "id": "2.2.5",
+      "type": "subsection",
+      "level": 3,
+      "title": "多重集",
+      "page": 118,
+      "parent_id": "2.2",
+      "chapter": 2
+    },
+    {
+      "id": "2.2.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 119,
+      "parent_id": "2.2",
+      "chapter": 2
+    },
+    {
+      "id": "2.3",
+      "type": "section",
+      "level": 2,
+      "title": "函数",
+      "page": 123,
+      "parent_id": "2",
+      "chapter": 2
+    },
+    {
+      "id": "2.3.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 123,
+      "parent_id": "2.3",
+      "chapter": 2
+    },
+    {
+      "id": "2.3.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "一对一函数和映上函数",
+      "page": 125,
+      "parent_id": "2.3",
+      "chapter": 2
+    },
+    {
+      "id": "2.3.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "反函数和函数合成",
+      "page": 128,
+      "parent_id": "2.3",
+      "chapter": 2
+    },
+    {
+      "id": "2.3.4",
+      "type": "subsection",
+      "level": 3,
+      "title": "函数的图",
+      "page": 130,
+      "parent_id": "2.3",
+      "chapter": 2
+    },
+    {
+      "id": "2.3.5",
+      "type": "subsection",
+      "level": 3,
+      "title": "一些重要的函数",
+      "page": 130,
+      "parent_id": "2.3",
+      "chapter": 2
+    },
+    {
+      "id": "2.3.6",
+      "type": "subsection",
+      "level": 3,
+      "title": "部分函数",
+      "page": 133,
+      "parent_id": "2.3",
+      "chapter": 2
+    },
+    {
+      "id": "2.3.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 133,
+      "parent_id": "2.3",
+      "chapter": 2
+    },
+    {
+      "id": "2.4",
+      "type": "section",
+      "level": 2,
+      "title": "序列与求和",
+      "page": 138,
+      "parent_id": "2",
+      "chapter": 2
+    },
+    {
+      "id": "2.4.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 138,
+      "parent_id": "2.4",
+      "chapter": 2
+    },
+    {
+      "id": "2.4.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "序列",
+      "page": 138,
+      "parent_id": "2.4",
+      "chapter": 2
+    },
+    {
+      "id": "2.4.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "递推关系",
+      "page": 139,
+      "parent_id": "2.4",
+      "chapter": 2
+    },
+    {
+      "id": "2.4.4",
+      "type": "subsection",
+      "level": 3,
+      "title": "特殊的整数序列",
+      "page": 141,
+      "parent_id": "2.4",
+      "chapter": 2
+    },
+    {
+      "id": "2.4.5",
+      "type": "subsection",
+      "level": 3,
+      "title": "求和",
+      "page": 144,
+      "parent_id": "2.4",
+      "chapter": 2
+    },
+    {
+      "id": "2.4.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 147,
+      "parent_id": "2.4",
+      "chapter": 2
+    },
+    {
+      "id": "2.5",
+      "type": "section",
+      "level": 2,
+      "title": "集合的基数",
+      "page": 150,
+      "parent_id": "2",
+      "chapter": 2
+    },
+    {
+      "id": "2.5.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 150,
+      "parent_id": "2.5",
+      "chapter": 2
+    },
+    {
+      "id": "2.5.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "可数集合",
+      "page": 151,
+      "parent_id": "2.5",
+      "chapter": 2
+    },
+    {
+      "id": "2.5.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "不可数集合",
+      "page": 153,
+      "parent_id": "2.5",
+      "chapter": 2
+    },
+    {
+      "id": "2.5.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 155,
+      "parent_id": "2.5",
+      "chapter": 2
+    },
+    {
+      "id": "2.6",
+      "type": "section",
+      "level": 2,
+      "title": "矩阵",
+      "page": 157,
+      "parent_id": "2",
+      "chapter": 2
+    },
+    {
+      "id": "2.6.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 157,
+      "parent_id": "2.6",
+      "chapter": 2
+    },
+    {
+      "id": "2.6.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "矩阵算术",
+      "page": 158,
+      "parent_id": "2.6",
+      "chapter": 2
+    },
+    {
+      "id": "2.6.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "矩阵的转置和幂",
+      "page": 159,
+      "parent_id": "2.6",
+      "chapter": 2
+    },
+    {
+      "id": "2.6.4",
+      "type": "subsection",
+      "level": 3,
+      "title": "0-1 矩阵",
+      "page": 160,
+      "parent_id": "2.6",
+      "chapter": 2
+    },
+    {
+      "id": "2.6.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 161,
+      "parent_id": "2.6",
+      "chapter": 2
+    },
+    {
+      "id": "2.endmatter.glossary",
+      "type": "endmatter",
+      "level": 2,
+      "title": "关键术语和结论",
+      "page": 164,
+      "parent_id": "2",
+      "chapter": 2
+    },
+    {
+      "id": "2.endmatter.review",
+      "type": "endmatter",
+      "level": 2,
+      "title": "复习题",
+      "page": 166,
+      "parent_id": "2",
+      "chapter": 2
+    },
+    {
+      "id": "2.endmatter.supp",
+      "type": "endmatter",
+      "level": 2,
+      "title": "补充练习",
+      "page": 166,
+      "parent_id": "2",
+      "chapter": 2
+    },
+    {
+      "id": "2.endmatter.cs",
+      "type": "endmatter",
+      "level": 2,
+      "title": "计算机课题",
+      "page": 168,
+      "parent_id": "2",
+      "chapter": 2
+    },
+    {
+      "id": "2.endmatter.explore",
+      "type": "endmatter",
+      "level": 2,
+      "title": "计算和探索",
+      "page": 169,
+      "parent_id": "2",
+      "chapter": 2
+    },
+    {
+      "id": "2.endmatter.writing",
+      "type": "endmatter",
+      "level": 2,
+      "title": "写作课题",
+      "page": 169,
+      "parent_id": "2",
+      "chapter": 2
+    },
+    {
+      "id": "3",
+      "type": "chapter",
+      "level": 1,
+      "title": "算法",
+      "page": 170,
+      "parent_id": null,
+      "chapter": 3
+    },
+    {
+      "id": "3.1",
+      "type": "section",
+      "level": 2,
+      "title": "算法",
+      "page": 170,
+      "parent_id": "3",
+      "chapter": 3
+    },
+    {
+      "id": "3.1.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 170,
+      "parent_id": "3.1",
+      "chapter": 3
+    },
+    {
+      "id": "3.1.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "搜索算法",
+      "page": 172,
+      "parent_id": "3.1",
+      "chapter": 3
+    },
+    {
+      "id": "3.1.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "排序",
+      "page": 174,
+      "parent_id": "3.1",
+      "chapter": 3
+    },
+    {
+      "id": "3.1.4",
+      "type": "subsection",
+      "level": 3,
+      "title": "字符串匹配",
+      "page": 176,
+      "parent_id": "3.1",
+      "chapter": 3
+    },
+    {
+      "id": "3.1.5",
+      "type": "subsection",
+      "level": 3,
+      "title": "贪婪算法",
+      "page": 177,
+      "parent_id": "3.1",
+      "chapter": 3
+    },
+    {
+      "id": "3.1.6",
+      "type": "subsection",
+      "level": 3,
+      "title": "停机问题",
+      "page": 179,
+      "parent_id": "3.1",
+      "chapter": 3
+    },
+    {
+      "id": "3.2",
+      "type": "section",
+      "level": 2,
+      "title": "函数的增长",
+      "page": 183,
+      "parent_id": "3",
+      "chapter": 3
+    },
+    {
+      "id": "3.2.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 183,
+      "parent_id": "3.2",
+      "chapter": 3
+    },
+    {
+      "id": "3.2.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "大 O 记号",
+      "page": 184,
+      "parent_id": "3.2",
+      "chapter": 3
+    },
+    {
+      "id": "3.2.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "一些重要函数的大 O 估算",
+      "page": 187,
+      "parent_id": "3.2",
+      "chapter": 3
+    },
+    {
+      "id": "3.2.4",
+      "type": "subsection",
+      "level": 3,
+      "title": "函数组合的增长",
+      "page": 190,
+      "parent_id": "3.2",
+      "chapter": 3
+    },
+    {
+      "id": "3.2.5",
+      "type": "subsection",
+      "level": 3,
+      "title": "大 Ω 与大 Θ 记号",
+      "page": 191,
+      "parent_id": "3.2",
+      "chapter": 3
+    },
+    {
+      "id": "3.2.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 192,
+      "parent_id": "3.2",
+      "chapter": 3
+    },
+    {
+      "id": "3.3",
+      "type": "section",
+      "level": 2,
+      "title": "算法的复杂度",
+      "page": 196,
+      "parent_id": "3",
+      "chapter": 3
+    },
+    {
+      "id": "3.3.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 196,
+      "parent_id": "3.3",
+      "chapter": 3
+    },
+    {
+      "id": "3.3.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "时间复杂度",
+      "page": 196,
+      "parent_id": "3.3",
+      "chapter": 3
+    },
+    {
+      "id": "3.3.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "矩阵乘法的复杂度",
+      "page": 198,
+      "parent_id": "3.3",
+      "chapter": 3
+    },
+    {
+      "id": "3.3.4",
+      "type": "subsection",
+      "level": 3,
+      "title": "算法范型",
+      "page": 199,
+      "parent_id": "3.3",
+      "chapter": 3
+    },
+    {
+      "id": "3.3.5",
+      "type": "subsection",
+      "level": 3,
+      "title": "理解算法的复杂度",
+      "page": 201,
+      "parent_id": "3.3",
+      "chapter": 3
+    },
+    {
+      "id": "3.3.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 203,
+      "parent_id": "3.3",
+      "chapter": 3
+    },
+    {
+      "id": "3.endmatter.glossary",
+      "type": "endmatter",
+      "level": 2,
+      "title": "关键术语和结论",
+      "page": 207,
+      "parent_id": "3",
+      "chapter": 3
+    },
+    {
+      "id": "3.endmatter.review",
+      "type": "endmatter",
+      "level": 2,
+      "title": "复习题",
+      "page": 208,
+      "parent_id": "3",
+      "chapter": 3
+    },
+    {
+      "id": "3.endmatter.supp",
+      "type": "endmatter",
+      "level": 2,
+      "title": "补充练习",
+      "page": 209,
+      "parent_id": "3",
+      "chapter": 3
+    },
+    {
+      "id": "3.endmatter.cs",
+      "type": "endmatter",
+      "level": 2,
+      "title": "计算机课题",
+      "page": 211,
+      "parent_id": "3",
+      "chapter": 3
+    },
+    {
+      "id": "3.endmatter.explore",
+      "type": "endmatter",
+      "level": 2,
+      "title": "计算和探索",
+      "page": 211,
+      "parent_id": "3",
+      "chapter": 3
+    },
+    {
+      "id": "3.endmatter.writing",
+      "type": "endmatter",
+      "level": 2,
+      "title": "写作课题",
+      "page": 212,
+      "parent_id": "3",
+      "chapter": 3
+    },
+    {
+      "id": "4",
+      "type": "chapter",
+      "level": 1,
+      "title": "数论和密码学",
+      "page": 213,
+      "parent_id": null,
+      "chapter": 4
+    },
+    {
+      "id": "4.1",
+      "type": "section",
+      "level": 2,
+      "title": "整除性和模算术",
+      "page": 213,
+      "parent_id": "4",
+      "chapter": 4
+    },
+    {
+      "id": "4.1.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 213,
+      "parent_id": "4.1",
+      "chapter": 4
+    },
+    {
+      "id": "4.1.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "除法",
+      "page": 213,
+      "parent_id": "4.1",
+      "chapter": 4
+    },
+    {
+      "id": "4.1.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "除法算法",
+      "page": 214,
+      "parent_id": "4.1",
+      "chapter": 4
+    },
+    {
+      "id": "4.1.4",
+      "type": "subsection",
+      "level": 3,
+      "title": "模算术",
+      "page": 215,
+      "parent_id": "4.1",
+      "chapter": 4
+    },
+    {
+      "id": "4.1.5",
+      "type": "subsection",
+      "level": 3,
+      "title": "模 m 算术",
+      "page": 217,
+      "parent_id": "4.1",
+      "chapter": 4
+    },
+    {
+      "id": "4.1.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 218,
+      "parent_id": "4.1",
+      "chapter": 4
+    },
+    {
+      "id": "4.2",
+      "type": "section",
+      "level": 2,
+      "title": "整数表示和算法",
+      "page": 220,
+      "parent_id": "4",
+      "chapter": 4
+    },
+    {
+      "id": "4.2.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 220,
+      "parent_id": "4.2",
+      "chapter": 4
+    },
+    {
+      "id": "4.2.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "整数表示",
+      "page": 220,
+      "parent_id": "4.2",
+      "chapter": 4
+    },
+    {
+      "id": "4.2.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "整数运算算法",
+      "page": 223,
+      "parent_id": "4.2",
+      "chapter": 4
+    },
+    {
+      "id": "4.2.4",
+      "type": "subsection",
+      "level": 3,
+      "title": "模指数运算算法",
+      "page": 225,
+      "parent_id": "4.2",
+      "chapter": 4
+    },
+    {
+      "id": "4.2.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 226,
+      "parent_id": "4.2",
+      "chapter": 4
+    },
+    {
+      "id": "4.3",
+      "type": "section",
+      "level": 2,
+      "title": "素数和最大公约数",
+      "page": 229,
+      "parent_id": "4",
+      "chapter": 4
+    },
+    {
+      "id": "4.3.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 229,
+      "parent_id": "4.3",
+      "chapter": 4
+    },
+    {
+      "id": "4.3.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "素数",
+      "page": 229,
+      "parent_id": "4.3",
+      "chapter": 4
+    },
+    {
+      "id": "4.3.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "试除法",
+      "page": 230,
+      "parent_id": "4.3",
+      "chapter": 4
+    },
+    {
+      "id": "4.3.4",
+      "type": "subsection",
+      "level": 3,
+      "title": "埃拉托斯特尼筛法",
+      "page": 231,
+      "parent_id": "4.3",
+      "chapter": 4
+    },
+    {
+      "id": "4.3.5",
+      "type": "subsection",
+      "level": 3,
+      "title": "关于素数的猜想和开放问题",
+      "page": 235,
+      "parent_id": "4.3",
+      "chapter": 4
+    },
+    {
+      "id": "4.3.6",
+      "type": "subsection",
+      "level": 3,
+      "title": "最大公约数和最小公倍数",
+      "page": 236,
+      "parent_id": "4.3",
+      "chapter": 4
+    },
+    {
+      "id": "4.3.7",
+      "type": "subsection",
+      "level": 3,
+      "title": "欧几里得算法",
+      "page": 238,
+      "parent_id": "4.3",
+      "chapter": 4
+    },
+    {
+      "id": "4.3.8",
+      "type": "subsection",
+      "level": 3,
+      "title": "gcd 的线性组合表示",
+      "page": 239,
+      "parent_id": "4.3",
+      "chapter": 4
+    },
+    {
+      "id": "4.3.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 242,
+      "parent_id": "4.3",
+      "chapter": 4
+    },
+    {
+      "id": "4.4",
+      "type": "section",
+      "level": 2,
+      "title": "求解同余方程",
+      "page": 245,
+      "parent_id": "4",
+      "chapter": 4
+    },
+    {
+      "id": "4.4.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 245,
+      "parent_id": "4.4",
+      "chapter": 4
+    },
+    {
+      "id": "4.4.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "线性同余方程",
+      "page": 245,
+      "parent_id": "4.4",
+      "chapter": 4
+    },
+    {
+      "id": "4.4.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "中国剩余定理",
+      "page": 247,
+      "parent_id": "4.4",
+      "chapter": 4
+    },
+    {
+      "id": "4.4.4",
+      "type": "subsection",
+      "level": 3,
+      "title": "大整数的计算机算术",
+      "page": 248,
+      "parent_id": "4.4",
+      "chapter": 4
+    },
+    {
+      "id": "4.4.5",
+      "type": "subsection",
+      "level": 3,
+      "title": "费马小定理",
+      "page": 249,
+      "parent_id": "4.4",
+      "chapter": 4
+    },
+    {
+      "id": "4.4.6",
+      "type": "subsection",
+      "level": 3,
+      "title": "伪素数",
+      "page": 250,
+      "parent_id": "4.4",
+      "chapter": 4
+    },
+    {
+      "id": "4.4.7",
+      "type": "subsection",
+      "level": 3,
+      "title": "原根和离散对数",
+      "page": 251,
+      "parent_id": "4.4",
+      "chapter": 4
+    },
+    {
+      "id": "4.4.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 252,
+      "parent_id": "4.4",
+      "chapter": 4
+    },
+    {
+      "id": "4.5",
+      "type": "section",
+      "level": 2,
+      "title": "同余的应用",
+      "page": 255,
+      "parent_id": "4",
+      "chapter": 4
+    },
+    {
+      "id": "4.5.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "散列函数",
+      "page": 255,
+      "parent_id": "4.5",
+      "chapter": 4
+    },
+    {
+      "id": "4.5.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "伪随机数",
+      "page": 256,
+      "parent_id": "4.5",
+      "chapter": 4
+    },
+    {
+      "id": "4.5.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "校验码",
+      "page": 257,
+      "parent_id": "4.5",
+      "chapter": 4
+    },
+    {
+      "id": "4.5.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 259,
+      "parent_id": "4.5",
+      "chapter": 4
+    },
+    {
+      "id": "4.6",
+      "type": "section",
+      "level": 2,
+      "title": "密码学",
+      "page": 260,
+      "parent_id": "4",
+      "chapter": 4
+    },
+    {
+      "id": "4.6.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 260,
+      "parent_id": "4.6",
+      "chapter": 4
+    },
+    {
+      "id": "4.6.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "古典密码学",
+      "page": 261,
+      "parent_id": "4.6",
+      "chapter": 4
+    },
+    {
+      "id": "4.6.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "公开密码学",
+      "page": 263,
+      "parent_id": "4.6",
+      "chapter": 4
+    },
+    {
+      "id": "4.6.4",
+      "type": "subsection",
+      "level": 3,
+      "title": "RSA 密码系统",
+      "page": 265,
+      "parent_id": "4.6",
+      "chapter": 4
+    },
+    {
+      "id": "4.6.5",
+      "type": "subsection",
+      "level": 3,
+      "title": "RSA 加密",
+      "page": 265,
+      "parent_id": "4.6",
+      "chapter": 4
+    },
+    {
+      "id": "4.6.6",
+      "type": "subsection",
+      "level": 3,
+      "title": "RSA 解密",
+      "page": 266,
+      "parent_id": "4.6",
+      "chapter": 4
+    },
+    {
+      "id": "4.6.7",
+      "type": "subsection",
+      "level": 3,
+      "title": "用 RSA 作为公钥系统",
+      "page": 266,
+      "parent_id": "4.6",
+      "chapter": 4
+    },
+    {
+      "id": "4.6.8",
+      "type": "subsection",
+      "level": 3,
+      "title": "密码协议",
+      "page": 267,
+      "parent_id": "4.6",
+      "chapter": 4
+    },
+    {
+      "id": "4.6.9",
+      "type": "subsection",
+      "level": 3,
+      "title": "同态加密",
+      "page": 268,
+      "parent_id": "4.6",
+      "chapter": 4
+    },
+    {
+      "id": "4.6.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 269,
+      "parent_id": "4.6",
+      "chapter": 4
+    },
+    {
+      "id": "4.endmatter.glossary",
+      "type": "endmatter",
+      "level": 2,
+      "title": "关键术语和结论",
+      "page": 271,
+      "parent_id": "4",
+      "chapter": 4
+    },
+    {
+      "id": "4.endmatter.review",
+      "type": "endmatter",
+      "level": 2,
+      "title": "复习题",
+      "page": 273,
+      "parent_id": "4",
+      "chapter": 4
+    },
+    {
+      "id": "4.endmatter.supp",
+      "type": "endmatter",
+      "level": 2,
+      "title": "补充练习",
+      "page": 273,
+      "parent_id": "4",
+      "chapter": 4
+    },
+    {
+      "id": "4.endmatter.cs",
+      "type": "endmatter",
+      "level": 2,
+      "title": "计算机课题",
+      "page": 275,
+      "parent_id": "4",
+      "chapter": 4
+    },
+    {
+      "id": "4.endmatter.explore",
+      "type": "endmatter",
+      "level": 2,
+      "title": "计算和探索",
+      "page": 276,
+      "parent_id": "4",
+      "chapter": 4
+    },
+    {
+      "id": "4.endmatter.writing",
+      "type": "endmatter",
+      "level": 2,
+      "title": "写作课题",
+      "page": 276,
+      "parent_id": "4",
+      "chapter": 4
+    },
+    {
+      "id": "5",
+      "type": "chapter",
+      "level": 1,
+      "title": "归纳与递归",
+      "page": 278,
+      "parent_id": null,
+      "chapter": 5
+    },
+    {
+      "id": "5.1",
+      "type": "section",
+      "level": 2,
+      "title": "数学归纳法",
+      "page": 278,
+      "parent_id": "5",
+      "chapter": 5
+    },
+    {
+      "id": "5.1.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 278,
+      "parent_id": "5.1",
+      "chapter": 5
+    },
+    {
+      "id": "5.1.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "数学归纳法",
+      "page": 279,
+      "parent_id": "5.1",
+      "chapter": 5
+    },
+    {
+      "id": "5.1.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "为什么数学归纳法是有效的",
+      "page": 280,
+      "parent_id": "5.1",
+      "chapter": 5
+    },
+    {
+      "id": "5.1.4",
+      "type": "subsection",
+      "level": 3,
+      "title": "选择正确的基础步骤",
+      "page": 280,
+      "parent_id": "5.1",
+      "chapter": 5
+    },
+    {
+      "id": "5.1.5",
+      "type": "subsection",
+      "level": 3,
+      "title": "运用数学归纳法进行证明的原则",
+      "page": 281,
+      "parent_id": "5.1",
+      "chapter": 5
+    },
+    {
+      "id": "5.1.6",
+      "type": "subsection",
+      "level": 3,
+      "title": "数学归纳法的优点与缺点",
+      "page": 281,
+      "parent_id": "5.1",
+      "chapter": 5
+    },
+    {
+      "id": "5.1.7",
+      "type": "subsection",
+      "level": 3,
+      "title": "利用数学归纳法证明的例子",
+      "page": 281,
+      "parent_id": "5.1",
+      "chapter": 5
+    },
+    {
+      "id": "5.1.8",
+      "type": "subsection",
+      "level": 3,
+      "title": "使用数学归纳法时犯的错误",
+      "page": 290,
+      "parent_id": "5.1",
+      "chapter": 5
+    },
+    {
+      "id": "5.1.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 291,
+      "parent_id": "5.1",
+      "chapter": 5
+    },
+    {
+      "id": "5.2",
+      "type": "section",
+      "level": 2,
+      "title": "强归纳法与良序性",
+      "page": 296,
+      "parent_id": "5",
+      "chapter": 5
+    },
+    {
+      "id": "5.2.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 296,
+      "parent_id": "5.2",
+      "chapter": 5
+    },
+    {
+      "id": "5.2.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "强归纳法",
+      "page": 296,
+      "parent_id": "5.2",
+      "chapter": 5
+    },
+    {
+      "id": "5.2.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "利用强归纳法证明的例子",
+      "page": 298,
+      "parent_id": "5.2",
+      "chapter": 5
+    },
+    {
+      "id": "5.2.4",
+      "type": "subsection",
+      "level": 3,
+      "title": "计算几何学中使用强归纳法",
+      "page": 300,
+      "parent_id": "5.2",
+      "chapter": 5
+    },
+    {
+      "id": "5.2.5",
+      "type": "subsection",
+      "level": 3,
+      "title": "利用良序性证明",
+      "page": 302,
+      "parent_id": "5.2",
+      "chapter": 5
+    },
+    {
+      "id": "5.2.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 302,
+      "parent_id": "5.2",
+      "chapter": 5
+    },
+    {
+      "id": "5.3",
+      "type": "section",
+      "level": 2,
+      "title": "递归定义与结构归纳法",
+      "page": 306,
+      "parent_id": "5",
+      "chapter": 5
+    },
+    {
+      "id": "5.3.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 306,
+      "parent_id": "5.3",
+      "chapter": 5
+    },
+    {
+      "id": "5.3.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "递归地定义函数",
+      "page": 307,
+      "parent_id": "5.3",
+      "chapter": 5
+    },
+    {
+      "id": "5.3.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "递归地定义集合与结构",
+      "page": 309,
+      "parent_id": "5.3",
+      "chapter": 5
+    },
+    {
+      "id": "5.3.4",
+      "type": "subsection",
+      "level": 3,
+      "title": "结构归纳法",
+      "page": 312,
+      "parent_id": "5.3",
+      "chapter": 5
+    },
+    {
+      "id": "5.3.5",
+      "type": "subsection",
+      "level": 3,
+      "title": "广义归纳法",
+      "page": 315,
+      "parent_id": "5.3",
+      "chapter": 5
+    },
+    {
+      "id": "5.3.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 315,
+      "parent_id": "5.3",
+      "chapter": 5
+    },
+    {
+      "id": "5.4",
+      "type": "section",
+      "level": 2,
+      "title": "递归算法",
+      "page": 320,
+      "parent_id": "5",
+      "chapter": 5
+    },
+    {
+      "id": "5.4.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 320,
+      "parent_id": "5.4",
+      "chapter": 5
+    },
+    {
+      "id": "5.4.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "证明递归算法的正确性",
+      "page": 322,
+      "parent_id": "5.4",
+      "chapter": 5
+    },
+    {
+      "id": "5.4.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "递归与迭代",
+      "page": 323,
+      "parent_id": "5.4",
+      "chapter": 5
+    },
+    {
+      "id": "5.4.4",
+      "type": "subsection",
+      "level": 3,
+      "title": "归并排序",
+      "page": 324,
+      "parent_id": "5.4",
+      "chapter": 5
+    },
+    {
+      "id": "5.4.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 327,
+      "parent_id": "5.4",
+      "chapter": 5
+    },
+    {
+      "id": "5.5",
+      "type": "section",
+      "level": 2,
+      "title": "程序正确性",
+      "page": 329,
+      "parent_id": "5",
+      "chapter": 5
+    },
+    {
+      "id": "5.5.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 329,
+      "parent_id": "5.5",
+      "chapter": 5
+    },
+    {
+      "id": "5.5.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "程序验证",
+      "page": 329,
+      "parent_id": "5.5",
+      "chapter": 5
+    },
+    {
+      "id": "5.5.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "推理规则",
+      "page": 330,
+      "parent_id": "5.5",
+      "chapter": 5
+    },
+    {
+      "id": "5.5.4",
+      "type": "subsection",
+      "level": 3,
+      "title": "条件语句",
+      "page": 330,
+      "parent_id": "5.5",
+      "chapter": 5
+    },
+    {
+      "id": "5.5.5",
+      "type": "subsection",
+      "level": 3,
+      "title": "循环不变量",
+      "page": 332,
+      "parent_id": "5.5",
+      "chapter": 5
+    },
+    {
+      "id": "5.5.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 333,
+      "parent_id": "5.5",
+      "chapter": 5
+    },
+    {
+      "id": "5.endmatter.glossary",
+      "type": "endmatter",
+      "level": 2,
+      "title": "关键术语和结论",
+      "page": 334,
+      "parent_id": "5",
+      "chapter": 5
+    },
+    {
+      "id": "5.endmatter.review",
+      "type": "endmatter",
+      "level": 2,
+      "title": "复习题",
+      "page": 335,
+      "parent_id": "5",
+      "chapter": 5
+    },
+    {
+      "id": "5.endmatter.supp",
+      "type": "endmatter",
+      "level": 2,
+      "title": "补充练习",
+      "page": 336,
+      "parent_id": "5",
+      "chapter": 5
+    },
+    {
+      "id": "5.endmatter.cs",
+      "type": "endmatter",
+      "level": 2,
+      "title": "计算机课题",
+      "page": 340,
+      "parent_id": "5",
+      "chapter": 5
+    },
+    {
+      "id": "5.endmatter.explore",
+      "type": "endmatter",
+      "level": 2,
+      "title": "计算和探索",
+      "page": 341,
+      "parent_id": "5",
+      "chapter": 5
+    },
+    {
+      "id": "5.endmatter.writing",
+      "type": "endmatter",
+      "level": 2,
+      "title": "写作课题",
+      "page": 341,
+      "parent_id": "5",
+      "chapter": 5
+    },
+    {
+      "id": "6",
+      "type": "chapter",
+      "level": 1,
+      "title": "计数",
+      "page": 342,
+      "parent_id": null,
+      "chapter": 6
+    },
+    {
+      "id": "6.1",
+      "type": "section",
+      "level": 2,
+      "title": "计数的基础",
+      "page": 342,
+      "parent_id": "6",
+      "chapter": 6
+    },
+    {
+      "id": "6.1.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 342,
+      "parent_id": "6.1",
+      "chapter": 6
+    },
+    {
+      "id": "6.1.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "基本的计数原则",
+      "page": 342,
+      "parent_id": "6.1",
+      "chapter": 6
+    },
+    {
+      "id": "6.1.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "比较复杂的计数问题",
+      "page": 346,
+      "parent_id": "6.1",
+      "chapter": 6
+    },
+    {
+      "id": "6.1.4",
+      "type": "subsection",
+      "level": 3,
+      "title": "减法法则（两个集合的容斥原理）",
+      "page": 347,
+      "parent_id": "6.1",
+      "chapter": 6
+    },
+    {
+      "id": "6.1.5",
+      "type": "subsection",
+      "level": 3,
+      "title": "除法法则",
+      "page": 349,
+      "parent_id": "6.1",
+      "chapter": 6
+    },
+    {
+      "id": "6.1.6",
+      "type": "subsection",
+      "level": 3,
+      "title": "树图",
+      "page": 349,
+      "parent_id": "6.1",
+      "chapter": 6
+    },
+    {
+      "id": "6.1.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 350,
+      "parent_id": "6.1",
+      "chapter": 6
+    },
+    {
+      "id": "6.2",
+      "type": "section",
+      "level": 2,
+      "title": "鸽巢原理",
+      "page": 354,
+      "parent_id": "6",
+      "chapter": 6
+    },
+    {
+      "id": "6.2.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 354,
+      "parent_id": "6.2",
+      "chapter": 6
+    },
+    {
+      "id": "6.2.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "广义鸽巢原理",
+      "page": 355,
+      "parent_id": "6.2",
+      "chapter": 6
+    },
+    {
+      "id": "6.2.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "鸽巢原理的几个简单应用",
+      "page": 357,
+      "parent_id": "6.2",
+      "chapter": 6
+    },
+    {
+      "id": "6.2.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 359,
+      "parent_id": "6.2",
+      "chapter": 6
+    },
+    {
+      "id": "6.3",
+      "type": "section",
+      "level": 2,
+      "title": "排列与组合",
+      "page": 361,
+      "parent_id": "6",
+      "chapter": 6
+    },
+    {
+      "id": "6.3.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 361,
+      "parent_id": "6.3",
+      "chapter": 6
+    },
+    {
+      "id": "6.3.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "排列",
+      "page": 361,
+      "parent_id": "6.3",
+      "chapter": 6
+    },
+    {
+      "id": "6.3.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "组合",
+      "page": 362,
+      "parent_id": "6.3",
+      "chapter": 6
+    },
+    {
+      "id": "6.3.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 365,
+      "parent_id": "6.3",
+      "chapter": 6
+    },
+    {
+      "id": "6.4",
+      "type": "section",
+      "level": 2,
+      "title": "二项式系数和恒等式",
+      "page": 367,
+      "parent_id": "6",
+      "chapter": 6
+    },
+    {
+      "id": "6.4.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "二项式定理",
+      "page": 368,
+      "parent_id": "6.4",
+      "chapter": 6
+    },
+    {
+      "id": "6.4.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "帕斯卡恒等式与三角形",
+      "page": 370,
+      "parent_id": "6.4",
+      "chapter": 6
+    },
+    {
+      "id": "6.4.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "其他的二项式系数恒等式",
+      "page": 371,
+      "parent_id": "6.4",
+      "chapter": 6
+    },
+    {
+      "id": "6.4.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 372,
+      "parent_id": "6.4",
+      "chapter": 6
+    },
+    {
+      "id": "6.5",
+      "type": "section",
+      "level": 2,
+      "title": "排列与组合的推广",
+      "page": 375,
+      "parent_id": "6",
+      "chapter": 6
+    },
+    {
+      "id": "6.5.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 375,
+      "parent_id": "6.5",
+      "chapter": 6
+    },
+    {
+      "id": "6.5.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "有重复的排列",
+      "page": 375,
+      "parent_id": "6.5",
+      "chapter": 6
+    },
+    {
+      "id": "6.5.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "有重复的组合",
+      "page": 375,
+      "parent_id": "6.5",
+      "chapter": 6
+    },
+    {
+      "id": "6.5.4",
+      "type": "subsection",
+      "level": 3,
+      "title": "具有不可区别物体的集合的排列",
+      "page": 378,
+      "parent_id": "6.5",
+      "chapter": 6
+    },
+    {
+      "id": "6.5.5",
+      "type": "subsection",
+      "level": 3,
+      "title": "把物体放入盒子",
+      "page": 379,
+      "parent_id": "6.5",
+      "chapter": 6
+    },
+    {
+      "id": "6.5.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 382,
+      "parent_id": "6.5",
+      "chapter": 6
+    },
+    {
+      "id": "6.6",
+      "type": "section",
+      "level": 2,
+      "title": "生成排列和组合",
+      "page": 385,
+      "parent_id": "6",
+      "chapter": 6
+    },
+    {
+      "id": "6.6.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 385,
+      "parent_id": "6.6",
+      "chapter": 6
+    },
+    {
+      "id": "6.6.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "生成排列",
+      "page": 385,
+      "parent_id": "6.6",
+      "chapter": 6
+    },
+    {
+      "id": "6.6.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "生成组合",
+      "page": 386,
+      "parent_id": "6.6",
+      "chapter": 6
+    },
+    {
+      "id": "6.6.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 387,
+      "parent_id": "6.6",
+      "chapter": 6
+    },
+    {
+      "id": "6.endmatter.glossary",
+      "type": "endmatter",
+      "level": 2,
+      "title": "关键术语和结论",
+      "page": 388,
+      "parent_id": "6",
+      "chapter": 6
+    },
+    {
+      "id": "6.endmatter.review",
+      "type": "endmatter",
+      "level": 2,
+      "title": "复习题",
+      "page": 389,
+      "parent_id": "6",
+      "chapter": 6
+    },
+    {
+      "id": "6.endmatter.supp",
+      "type": "endmatter",
+      "level": 2,
+      "title": "补充练习",
+      "page": 390,
+      "parent_id": "6",
+      "chapter": 6
+    },
+    {
+      "id": "6.endmatter.cs",
+      "type": "endmatter",
+      "level": 2,
+      "title": "计算机课题",
+      "page": 393,
+      "parent_id": "6",
+      "chapter": 6
+    },
+    {
+      "id": "6.endmatter.explore",
+      "type": "endmatter",
+      "level": 2,
+      "title": "计算和探索",
+      "page": 394,
+      "parent_id": "6",
+      "chapter": 6
+    },
+    {
+      "id": "6.endmatter.writing",
+      "type": "endmatter",
+      "level": 2,
+      "title": "写作课题",
+      "page": 394,
+      "parent_id": "6",
+      "chapter": 6
+    },
+    {
+      "id": "7",
+      "type": "chapter",
+      "level": 1,
+      "title": "离散概率",
+      "page": 395,
+      "parent_id": null,
+      "chapter": 7
+    },
+    {
+      "id": "7.1",
+      "type": "section",
+      "level": 2,
+      "title": "离散概率引论",
+      "page": 395,
+      "parent_id": "7",
+      "chapter": 7
+    },
+    {
+      "id": "7.1.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 395,
+      "parent_id": "7.1",
+      "chapter": 7
+    },
+    {
+      "id": "7.1.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "有限概率",
+      "page": 395,
+      "parent_id": "7.1",
+      "chapter": 7
+    },
+    {
+      "id": "7.1.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "事件组合的概率",
+      "page": 398,
+      "parent_id": "7.1",
+      "chapter": 7
+    },
+    {
+      "id": "7.1.4",
+      "type": "subsection",
+      "level": 3,
+      "title": "概率的推理",
+      "page": 399,
+      "parent_id": "7.1",
+      "chapter": 7
+    },
+    {
+      "id": "7.1.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 399,
+      "parent_id": "7.1",
+      "chapter": 7
+    },
+    {
+      "id": "7.2",
+      "type": "section",
+      "level": 2,
+      "title": "概率论",
+      "page": 402,
+      "parent_id": "7",
+      "chapter": 7
+    },
+    {
+      "id": "7.2.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 402,
+      "parent_id": "7.2",
+      "chapter": 7
+    },
+    {
+      "id": "7.2.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "概率指派",
+      "page": 402,
+      "parent_id": "7.2",
+      "chapter": 7
+    },
+    {
+      "id": "7.2.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "事件的组合",
+      "page": 403,
+      "parent_id": "7.2",
+      "chapter": 7
+    },
+    {
+      "id": "7.2.4",
+      "type": "subsection",
+      "level": 3,
+      "title": "条件概率",
+      "page": 404,
+      "parent_id": "7.2",
+      "chapter": 7
+    },
+    {
+      "id": "7.2.5",
+      "type": "subsection",
+      "level": 3,
+      "title": "独立性",
+      "page": 405,
+      "parent_id": "7.2",
+      "chapter": 7
+    },
+    {
+      "id": "7.2.6",
+      "type": "subsection",
+      "level": 3,
+      "title": "伯努利试验与二项分布",
+      "page": 406,
+      "parent_id": "7.2",
+      "chapter": 7
+    },
+    {
+      "id": "7.2.7",
+      "type": "subsection",
+      "level": 3,
+      "title": "随机变量",
+      "page": 407,
+      "parent_id": "7.2",
+      "chapter": 7
+    },
+    {
+      "id": "7.2.8",
+      "type": "subsection",
+      "level": 3,
+      "title": "生日问题",
+      "page": 408,
+      "parent_id": "7.2",
+      "chapter": 7
+    },
+    {
+      "id": "7.2.9",
+      "type": "subsection",
+      "level": 3,
+      "title": "蒙特卡罗算法",
+      "page": 409,
+      "parent_id": "7.2",
+      "chapter": 7
+    },
+    {
+      "id": "7.2.10",
+      "type": "subsection",
+      "level": 3,
+      "title": "概率方法",
+      "page": 411,
+      "parent_id": "7.2",
+      "chapter": 7
+    },
+    {
+      "id": "7.2.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 412,
+      "parent_id": "7.2",
+      "chapter": 7
+    },
+    {
+      "id": "7.3",
+      "type": "section",
+      "level": 2,
+      "title": "贝叶斯定理",
+      "page": 414,
+      "parent_id": "7",
+      "chapter": 7
+    },
+    {
+      "id": "7.3.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 414,
+      "parent_id": "7.3",
+      "chapter": 7
+    },
+    {
+      "id": "7.3.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "贝叶斯定理",
+      "page": 415,
+      "parent_id": "7.3",
+      "chapter": 7
+    },
+    {
+      "id": "7.3.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "贝叶斯垃圾邮件过滤器",
+      "page": 417,
+      "parent_id": "7.3",
+      "chapter": 7
+    },
+    {
+      "id": "7.3.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 420,
+      "parent_id": "7.3",
+      "chapter": 7
+    },
+    {
+      "id": "7.4",
+      "type": "section",
+      "level": 2,
+      "title": "期望值和方差",
+      "page": 422,
+      "parent_id": "7",
+      "chapter": 7
+    },
+    {
+      "id": "7.4.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 422,
+      "parent_id": "7.4",
+      "chapter": 7
+    },
+    {
+      "id": "7.4.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "期望值",
+      "page": 422,
+      "parent_id": "7.4",
+      "chapter": 7
+    },
+    {
+      "id": "7.4.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "期望的线性性质",
+      "page": 424,
+      "parent_id": "7.4",
+      "chapter": 7
+    },
+    {
+      "id": "7.4.4",
+      "type": "subsection",
+      "level": 3,
+      "title": "平均情形下的计算复杂度",
+      "page": 425,
+      "parent_id": "7.4",
+      "chapter": 7
+    },
+    {
+      "id": "7.4.5",
+      "type": "subsection",
+      "level": 3,
+      "title": "几何分布",
+      "page": 427,
+      "parent_id": "7.4",
+      "chapter": 7
+    },
+    {
+      "id": "7.4.6",
+      "type": "subsection",
+      "level": 3,
+      "title": "独立随机变量",
+      "page": 428,
+      "parent_id": "7.4",
+      "chapter": 7
+    },
+    {
+      "id": "7.4.7",
+      "type": "subsection",
+      "level": 3,
+      "title": "方差",
+      "page": 429,
+      "parent_id": "7.4",
+      "chapter": 7
+    },
+    {
+      "id": "7.4.8",
+      "type": "subsection",
+      "level": 3,
+      "title": "切比雪夫不等式",
+      "page": 431,
+      "parent_id": "7.4",
+      "chapter": 7
+    },
+    {
+      "id": "7.4.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 433,
+      "parent_id": "7.4",
+      "chapter": 7
+    },
+    {
+      "id": "7.endmatter.glossary",
+      "type": "endmatter",
+      "level": 2,
+      "title": "关键术语和结论",
+      "page": 435,
+      "parent_id": "7",
+      "chapter": 7
+    },
+    {
+      "id": "7.endmatter.review",
+      "type": "endmatter",
+      "level": 2,
+      "title": "复习题",
+      "page": 436,
+      "parent_id": "7",
+      "chapter": 7
+    },
+    {
+      "id": "7.endmatter.supp",
+      "type": "endmatter",
+      "level": 2,
+      "title": "补充练习",
+      "page": 437,
+      "parent_id": "7",
+      "chapter": 7
+    },
+    {
+      "id": "7.endmatter.cs",
+      "type": "endmatter",
+      "level": 2,
+      "title": "计算机课题",
+      "page": 440,
+      "parent_id": "7",
+      "chapter": 7
+    },
+    {
+      "id": "7.endmatter.explore",
+      "type": "endmatter",
+      "level": 2,
+      "title": "计算和探索",
+      "page": 441,
+      "parent_id": "7",
+      "chapter": 7
+    },
+    {
+      "id": "7.endmatter.writing",
+      "type": "endmatter",
+      "level": 2,
+      "title": "写作课题",
+      "page": 441,
+      "parent_id": "7",
+      "chapter": 7
+    },
+    {
+      "id": "8",
+      "type": "chapter",
+      "level": 1,
+      "title": "高级计数技术",
+      "page": 442,
+      "parent_id": null,
+      "chapter": 8
+    },
+    {
+      "id": "8.1",
+      "type": "section",
+      "level": 2,
+      "title": "递推关系的应用",
+      "page": 442,
+      "parent_id": "8",
+      "chapter": 8
+    },
+    {
+      "id": "8.1.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 442,
+      "parent_id": "8.1",
+      "chapter": 8
+    },
+    {
+      "id": "8.1.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "用递推关系构造模型",
+      "page": 443,
+      "parent_id": "8.1",
+      "chapter": 8
+    },
+    {
+      "id": "8.1.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "算法与递推关系",
+      "page": 447,
+      "parent_id": "8.1",
+      "chapter": 8
+    },
+    {
+      "id": "8.1.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 450,
+      "parent_id": "8.1",
+      "chapter": 8
+    },
+    {
+      "id": "8.2",
+      "type": "section",
+      "level": 2,
+      "title": "求解线性递推关系",
+      "page": 453,
+      "parent_id": "8",
+      "chapter": 8
+    },
+    {
+      "id": "8.2.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 453,
+      "parent_id": "8.2",
+      "chapter": 8
+    },
+    {
+      "id": "8.2.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "求解常系数线性齐次递推关系",
+      "page": 454,
+      "parent_id": "8.2",
+      "chapter": 8
+    },
+    {
+      "id": "8.2.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "求解常系数线性非齐次递推关系",
+      "page": 458,
+      "parent_id": "8.2",
+      "chapter": 8
+    },
+    {
+      "id": "8.2.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 460,
+      "parent_id": "8.2",
+      "chapter": 8
+    },
+    {
+      "id": "8.3",
+      "type": "section",
+      "level": 2,
+      "title": "分治算法和递推关系",
+      "page": 463,
+      "parent_id": "8",
+      "chapter": 8
+    },
+    {
+      "id": "8.3.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 463,
+      "parent_id": "8.3",
+      "chapter": 8
+    },
+    {
+      "id": "8.3.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "分治递推关系",
+      "page": 463,
+      "parent_id": "8.3",
+      "chapter": 8
+    },
+    {
+      "id": "8.3.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 469,
+      "parent_id": "8.3",
+      "chapter": 8
+    },
+    {
+      "id": "8.4",
+      "type": "section",
+      "level": 2,
+      "title": "生成函数",
+      "page": 471,
+      "parent_id": "8",
+      "chapter": 8
+    },
+    {
+      "id": "8.4.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 471,
+      "parent_id": "8.4",
+      "chapter": 8
+    },
+    {
+      "id": "8.4.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "关于幂级数的有用事实",
+      "page": 471,
+      "parent_id": "8.4",
+      "chapter": 8
+    },
+    {
+      "id": "8.4.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "计数问题与生成函数",
+      "page": 474,
+      "parent_id": "8.4",
+      "chapter": 8
+    },
+    {
+      "id": "8.4.4",
+      "type": "subsection",
+      "level": 3,
+      "title": "使用生成函数求解递推",
+      "page": 477,
+      "parent_id": "8.4",
+      "chapter": 8
+    },
+    {
+      "id": "8.4.5",
+      "type": "subsection",
+      "level": 3,
+      "title": "使用生成函数证明恒等式",
+      "page": 478,
+      "parent_id": "8.4",
+      "chapter": 8
+    },
+    {
+      "id": "8.4.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 479,
+      "parent_id": "8.4",
+      "chapter": 8
+    },
+    {
+      "id": "8.5",
+      "type": "section",
+      "level": 2,
+      "title": "容斥",
+      "page": 484,
+      "parent_id": "8",
+      "chapter": 8
+    },
+    {
+      "id": "8.5.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 484,
+      "parent_id": "8.5",
+      "chapter": 8
+    },
+    {
+      "id": "8.5.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "容斥原理",
+      "page": 484,
+      "parent_id": "8.5",
+      "chapter": 8
+    },
+    {
+      "id": "8.5.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 487,
+      "parent_id": "8.5",
+      "chapter": 8
+    },
+    {
+      "id": "8.6",
+      "type": "section",
+      "level": 2,
+      "title": "容斥原理的应用",
+      "page": 488,
+      "parent_id": "8",
+      "chapter": 8
+    },
+    {
+      "id": "8.6.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 488,
+      "parent_id": "8.6",
+      "chapter": 8
+    },
+    {
+      "id": "8.6.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "容斥原理的另一种形式",
+      "page": 488,
+      "parent_id": "8.6",
+      "chapter": 8
+    },
+    {
+      "id": "8.6.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "埃拉托色尼筛",
+      "page": 489,
+      "parent_id": "8.6",
+      "chapter": 8
+    },
+    {
+      "id": "8.6.4",
+      "type": "subsection",
+      "level": 3,
+      "title": "映上函数的个数",
+      "page": 490,
+      "parent_id": "8.6",
+      "chapter": 8
+    },
+    {
+      "id": "8.6.5",
+      "type": "subsection",
+      "level": 3,
+      "title": "错位排列",
+      "page": 492,
+      "parent_id": "8.6",
+      "chapter": 8
+    },
+    {
+      "id": "8.6.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 492,
+      "parent_id": "8.6",
+      "chapter": 8
+    },
+    {
+      "id": "8.endmatter.glossary",
+      "type": "endmatter",
+      "level": 2,
+      "title": "关键术语和结论",
+      "page": 493,
+      "parent_id": "8",
+      "chapter": 8
+    },
+    {
+      "id": "8.endmatter.review",
+      "type": "endmatter",
+      "level": 2,
+      "title": "复习题",
+      "page": 494,
+      "parent_id": "8",
+      "chapter": 8
+    },
+    {
+      "id": "8.endmatter.supp",
+      "type": "endmatter",
+      "level": 2,
+      "title": "补充练习",
+      "page": 495,
+      "parent_id": "8",
+      "chapter": 8
+    },
+    {
+      "id": "8.endmatter.cs",
+      "type": "endmatter",
+      "level": 2,
+      "title": "计算机课题",
+      "page": 497,
+      "parent_id": "8",
+      "chapter": 8
+    },
+    {
+      "id": "8.endmatter.explore",
+      "type": "endmatter",
+      "level": 2,
+      "title": "计算和探索",
+      "page": 498,
+      "parent_id": "8",
+      "chapter": 8
+    },
+    {
+      "id": "8.endmatter.writing",
+      "type": "endmatter",
+      "level": 2,
+      "title": "写作课题",
+      "page": 498,
+      "parent_id": "8",
+      "chapter": 8
+    },
+    {
+      "id": "9",
+      "type": "chapter",
+      "level": 1,
+      "title": "关系",
+      "page": 500,
+      "parent_id": null,
+      "chapter": 9
+    },
+    {
+      "id": "9.1",
+      "type": "section",
+      "level": 2,
+      "title": "关系及其性质",
+      "page": 500,
+      "parent_id": "9",
+      "chapter": 9
+    },
+    {
+      "id": "9.1.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 500,
+      "parent_id": "9.1",
+      "chapter": 9
+    },
+    {
+      "id": "9.1.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "函数作为关系",
+      "page": 501,
+      "parent_id": "9.1",
+      "chapter": 9
+    },
+    {
+      "id": "9.1.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "集合上的关系",
+      "page": 501,
+      "parent_id": "9.1",
+      "chapter": 9
+    },
+    {
+      "id": "9.1.4",
+      "type": "subsection",
+      "level": 3,
+      "title": "关系的性质",
+      "page": 502,
+      "parent_id": "9.1",
+      "chapter": 9
+    },
+    {
+      "id": "9.1.5",
+      "type": "subsection",
+      "level": 3,
+      "title": "关系的组合",
+      "page": 504,
+      "parent_id": "9.1",
+      "chapter": 9
+    },
+    {
+      "id": "9.1.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 506,
+      "parent_id": "9.1",
+      "chapter": 9
+    },
+    {
+      "id": "9.2",
+      "type": "section",
+      "level": 2,
+      "title": "n 元关系及其应用",
+      "page": 510,
+      "parent_id": "9",
+      "chapter": 9
+    },
+    {
+      "id": "9.2.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 510,
+      "parent_id": "9.2",
+      "chapter": 9
+    },
+    {
+      "id": "9.2.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "n 元关系",
+      "page": 510,
+      "parent_id": "9.2",
+      "chapter": 9
+    },
+    {
+      "id": "9.2.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "数据库和关系",
+      "page": 511,
+      "parent_id": "9.2",
+      "chapter": 9
+    },
+    {
+      "id": "9.2.4",
+      "type": "subsection",
+      "level": 3,
+      "title": "n 元关系的运算",
+      "page": 512,
+      "parent_id": "9.2",
+      "chapter": 9
+    },
+    {
+      "id": "9.2.5",
+      "type": "subsection",
+      "level": 3,
+      "title": "SQL",
+      "page": 514,
+      "parent_id": "9.2",
+      "chapter": 9
+    },
+    {
+      "id": "9.2.6",
+      "type": "subsection",
+      "level": 3,
+      "title": "数据挖掘的关联规则",
+      "page": 514,
+      "parent_id": "9.2",
+      "chapter": 9
+    },
+    {
+      "id": "9.2.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 516,
+      "parent_id": "9.2",
+      "chapter": 9
+    },
+    {
+      "id": "9.3",
+      "type": "section",
+      "level": 2,
+      "title": "关系的表示",
+      "page": 518,
+      "parent_id": "9",
+      "chapter": 9
+    },
+    {
+      "id": "9.3.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 518,
+      "parent_id": "9.3",
+      "chapter": 9
+    },
+    {
+      "id": "9.3.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "用矩阵表示关系",
+      "page": 518,
+      "parent_id": "9.3",
+      "chapter": 9
+    },
+    {
+      "id": "9.3.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "用图表示关系",
+      "page": 521,
+      "parent_id": "9.3",
+      "chapter": 9
+    },
+    {
+      "id": "9.3.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 522,
+      "parent_id": "9.3",
+      "chapter": 9
+    },
+    {
+      "id": "9.4",
+      "type": "section",
+      "level": 2,
+      "title": "关系的闭包",
+      "page": 524,
+      "parent_id": "9",
+      "chapter": 9
+    },
+    {
+      "id": "9.4.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 524,
+      "parent_id": "9.4",
+      "chapter": 9
+    },
+    {
+      "id": "9.4.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "不同类型的闭包",
+      "page": 524,
+      "parent_id": "9.4",
+      "chapter": 9
+    },
+    {
+      "id": "9.4.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "有向图中的路径",
+      "page": 525,
+      "parent_id": "9.4",
+      "chapter": 9
+    },
+    {
+      "id": "9.4.4",
+      "type": "subsection",
+      "level": 3,
+      "title": "传递闭包",
+      "page": 526,
+      "parent_id": "9.4",
+      "chapter": 9
+    },
+    {
+      "id": "9.4.5",
+      "type": "subsection",
+      "level": 3,
+      "title": "沃舍尔算法",
+      "page": 529,
+      "parent_id": "9.4",
+      "chapter": 9
+    },
+    {
+      "id": "9.4.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 531,
+      "parent_id": "9.4",
+      "chapter": 9
+    },
+    {
+      "id": "9.5",
+      "type": "section",
+      "level": 2,
+      "title": "等价关系",
+      "page": 533,
+      "parent_id": "9",
+      "chapter": 9
+    },
+    {
+      "id": "9.5.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 533,
+      "parent_id": "9.5",
+      "chapter": 9
+    },
+    {
+      "id": "9.5.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "等价关系",
+      "page": 533,
+      "parent_id": "9.5",
+      "chapter": 9
+    },
+    {
+      "id": "9.5.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "等价类",
+      "page": 534,
+      "parent_id": "9.5",
+      "chapter": 9
+    },
+    {
+      "id": "9.5.4",
+      "type": "subsection",
+      "level": 3,
+      "title": "等价类与划分",
+      "page": 536,
+      "parent_id": "9.5",
+      "chapter": 9
+    },
+    {
+      "id": "9.5.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 538,
+      "parent_id": "9.5",
+      "chapter": 9
+    },
+    {
+      "id": "9.6",
+      "type": "section",
+      "level": 2,
+      "title": "偏序",
+      "page": 542,
+      "parent_id": "9",
+      "chapter": 9
+    },
+    {
+      "id": "9.6.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 542,
+      "parent_id": "9.6",
+      "chapter": 9
+    },
+    {
+      "id": "9.6.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "字典顺序",
+      "page": 544,
+      "parent_id": "9.6",
+      "chapter": 9
+    },
+    {
+      "id": "9.6.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "哈塞图",
+      "page": 545,
+      "parent_id": "9.6",
+      "chapter": 9
+    },
+    {
+      "id": "9.6.4",
+      "type": "subsection",
+      "level": 3,
+      "title": "极大元与极小元",
+      "page": 546,
+      "parent_id": "9.6",
+      "chapter": 9
+    },
+    {
+      "id": "9.6.5",
+      "type": "subsection",
+      "level": 3,
+      "title": "格",
+      "page": 548,
+      "parent_id": "9.6",
+      "chapter": 9
+    },
+    {
+      "id": "9.6.6",
+      "type": "subsection",
+      "level": 3,
+      "title": "拓扑排序",
+      "page": 550,
+      "parent_id": "9.6",
+      "chapter": 9
+    },
+    {
+      "id": "9.6.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 551,
+      "parent_id": "9.6",
+      "chapter": 9
+    },
+    {
+      "id": "9.endmatter.glossary",
+      "type": "endmatter",
+      "level": 2,
+      "title": "关键术语和结论",
+      "page": 556,
+      "parent_id": "9",
+      "chapter": 9
+    },
+    {
+      "id": "9.endmatter.review",
+      "type": "endmatter",
+      "level": 2,
+      "title": "复习题",
+      "page": 557,
+      "parent_id": "9",
+      "chapter": 9
+    },
+    {
+      "id": "9.endmatter.supp",
+      "type": "endmatter",
+      "level": 2,
+      "title": "补充练习",
+      "page": 558,
+      "parent_id": "9",
+      "chapter": 9
+    },
+    {
+      "id": "9.endmatter.cs",
+      "type": "endmatter",
+      "level": 2,
+      "title": "计算机课题",
+      "page": 561,
+      "parent_id": "9",
+      "chapter": 9
+    },
+    {
+      "id": "9.endmatter.explore",
+      "type": "endmatter",
+      "level": 2,
+      "title": "计算和探索",
+      "page": 562,
+      "parent_id": "9",
+      "chapter": 9
+    },
+    {
+      "id": "9.endmatter.writing",
+      "type": "endmatter",
+      "level": 2,
+      "title": "写作课题",
+      "page": 562,
+      "parent_id": "9",
+      "chapter": 9
+    },
+    {
+      "id": "10",
+      "type": "chapter",
+      "level": 1,
+      "title": "图",
+      "page": 563,
+      "parent_id": null,
+      "chapter": 10
+    },
+    {
+      "id": "10.1",
+      "type": "section",
+      "level": 2,
+      "title": "图和图模型",
+      "page": 563,
+      "parent_id": "10",
+      "chapter": 10
+    },
+    {
+      "id": "10.1.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "图模型",
+      "page": 565,
+      "parent_id": "10.1",
+      "chapter": 10
+    },
+    {
+      "id": "10.1.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 570,
+      "parent_id": "10.1",
+      "chapter": 10
+    },
+    {
+      "id": "10.2",
+      "type": "section",
+      "level": 2,
+      "title": "图的术语和几种特殊的图",
+      "page": 573,
+      "parent_id": "10",
+      "chapter": 10
+    },
+    {
+      "id": "10.2.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 573,
+      "parent_id": "10.2",
+      "chapter": 10
+    },
+    {
+      "id": "10.2.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "基本术语",
+      "page": 573,
+      "parent_id": "10.2",
+      "chapter": 10
+    },
+    {
+      "id": "10.2.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "一些特殊的简单图",
+      "page": 575,
+      "parent_id": "10.2",
+      "chapter": 10
+    },
+    {
+      "id": "10.2.4",
+      "type": "subsection",
+      "level": 3,
+      "title": "二分图",
+      "page": 576,
+      "parent_id": "10.2",
+      "chapter": 10
+    },
+    {
+      "id": "10.2.5",
+      "type": "subsection",
+      "level": 3,
+      "title": "二分图和匹配",
+      "page": 577,
+      "parent_id": "10.2",
+      "chapter": 10
+    },
+    {
+      "id": "10.2.6",
+      "type": "subsection",
+      "level": 3,
+      "title": "特殊类型图的一些应用",
+      "page": 580,
+      "parent_id": "10.2",
+      "chapter": 10
+    },
+    {
+      "id": "10.2.7",
+      "type": "subsection",
+      "level": 3,
+      "title": "从旧图构造新图",
+      "page": 582,
+      "parent_id": "10.2",
+      "chapter": 10
+    },
+    {
+      "id": "10.2.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 584,
+      "parent_id": "10.2",
+      "chapter": 10
+    },
+    {
+      "id": "10.3",
+      "type": "section",
+      "level": 2,
+      "title": "图的表示和图的同构",
+      "page": 587,
+      "parent_id": "10",
+      "chapter": 10
+    },
+    {
+      "id": "10.3.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 587,
+      "parent_id": "10.3",
+      "chapter": 10
+    },
+    {
+      "id": "10.3.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "图的表示",
+      "page": 588,
+      "parent_id": "10.3",
+      "chapter": 10
+    },
+    {
+      "id": "10.3.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "邻接矩阵",
+      "page": 588,
+      "parent_id": "10.3",
+      "chapter": 10
+    },
+    {
+      "id": "10.3.4",
+      "type": "subsection",
+      "level": 3,
+      "title": "关联矩阵",
+      "page": 590,
+      "parent_id": "10.3",
+      "chapter": 10
+    },
+    {
+      "id": "10.3.5",
+      "type": "subsection",
+      "level": 3,
+      "title": "图的同构",
+      "page": 590,
+      "parent_id": "10.3",
+      "chapter": 10
+    },
+    {
+      "id": "10.3.6",
+      "type": "subsection",
+      "level": 3,
+      "title": "判定两个简单图是否同构",
+      "page": 591,
+      "parent_id": "10.3",
+      "chapter": 10
+    },
+    {
+      "id": "10.3.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 593,
+      "parent_id": "10.3",
+      "chapter": 10
+    },
+    {
+      "id": "10.4",
+      "type": "section",
+      "level": 2,
+      "title": "连通性",
+      "page": 598,
+      "parent_id": "10",
+      "chapter": 10
+    },
+    {
+      "id": "10.4.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 598,
+      "parent_id": "10.4",
+      "chapter": 10
+    },
+    {
+      "id": "10.4.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "通路",
+      "page": 598,
+      "parent_id": "10.4",
+      "chapter": 10
+    },
+    {
+      "id": "10.4.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "无向图的连通性",
+      "page": 600,
+      "parent_id": "10.4",
+      "chapter": 10
+    },
+    {
+      "id": "10.4.4",
+      "type": "subsection",
+      "level": 3,
+      "title": "图是如何连通的",
+      "page": 601,
+      "parent_id": "10.4",
+      "chapter": 10
+    },
+    {
+      "id": "10.4.5",
+      "type": "subsection",
+      "level": 3,
+      "title": "有向图的连通性",
+      "page": 603,
+      "parent_id": "10.4",
+      "chapter": 10
+    },
+    {
+      "id": "10.4.6",
+      "type": "subsection",
+      "level": 3,
+      "title": "通路与同构",
+      "page": 604,
+      "parent_id": "10.4",
+      "chapter": 10
+    },
+    {
+      "id": "10.4.7",
+      "type": "subsection",
+      "level": 3,
+      "title": "计算顶点之间的通路数",
+      "page": 605,
+      "parent_id": "10.4",
+      "chapter": 10
+    },
+    {
+      "id": "10.4.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 606,
+      "parent_id": "10.4",
+      "chapter": 10
+    },
+    {
+      "id": "10.5",
+      "type": "section",
+      "level": 2,
+      "title": "欧拉通路与哈密顿通路",
+      "page": 611,
+      "parent_id": "10",
+      "chapter": 10
+    },
+    {
+      "id": "10.5.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 611,
+      "parent_id": "10.5",
+      "chapter": 10
+    },
+    {
+      "id": "10.5.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "欧拉通路与欧拉回路",
+      "page": 611,
+      "parent_id": "10.5",
+      "chapter": 10
+    },
+    {
+      "id": "10.5.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "哈密顿通路与哈密顿回路",
+      "page": 615,
+      "parent_id": "10.5",
+      "chapter": 10
+    },
+    {
+      "id": "10.5.4",
+      "type": "subsection",
+      "level": 3,
+      "title": "哈密顿回路的应用",
+      "page": 618,
+      "parent_id": "10.5",
+      "chapter": 10
+    },
+    {
+      "id": "10.5.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 619,
+      "parent_id": "10.5",
+      "chapter": 10
+    },
+    {
+      "id": "10.6",
+      "type": "section",
+      "level": 2,
+      "title": "最短通路问题",
+      "page": 623,
+      "parent_id": "10",
+      "chapter": 10
+    },
+    {
+      "id": "10.6.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 623,
+      "parent_id": "10.6",
+      "chapter": 10
+    },
+    {
+      "id": "10.6.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "最短通路算法",
+      "page": 625,
+      "parent_id": "10.6",
+      "chapter": 10
+    },
+    {
+      "id": "10.6.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "旅行商问题",
+      "page": 629,
+      "parent_id": "10.6",
+      "chapter": 10
+    },
+    {
+      "id": "10.6.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 630,
+      "parent_id": "10.6",
+      "chapter": 10
+    },
+    {
+      "id": "10.7",
+      "type": "section",
+      "level": 2,
+      "title": "平面图",
+      "page": 633,
+      "parent_id": "10",
+      "chapter": 10
+    },
+    {
+      "id": "10.7.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 633,
+      "parent_id": "10.7",
+      "chapter": 10
+    },
+    {
+      "id": "10.7.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "欧拉公式",
+      "page": 634,
+      "parent_id": "10.7",
+      "chapter": 10
+    },
+    {
+      "id": "10.7.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "库拉图斯基定理",
+      "page": 637,
+      "parent_id": "10.7",
+      "chapter": 10
+    },
+    {
+      "id": "10.7.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 638,
+      "parent_id": "10.7",
+      "chapter": 10
+    },
+    {
+      "id": "10.8",
+      "type": "section",
+      "level": 2,
+      "title": "图着色",
+      "page": 640,
+      "parent_id": "10",
+      "chapter": 10
+    },
+    {
+      "id": "10.8.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 640,
+      "parent_id": "10.8",
+      "chapter": 10
+    },
+    {
+      "id": "10.8.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "图着色的应用",
+      "page": 644,
+      "parent_id": "10.8",
+      "chapter": 10
+    },
+    {
+      "id": "10.8.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 645,
+      "parent_id": "10.8",
+      "chapter": 10
+    },
+    {
+      "id": "10.endmatter.glossary",
+      "type": "endmatter",
+      "level": 2,
+      "title": "关键术语和结论",
+      "page": 648,
+      "parent_id": "10",
+      "chapter": 10
+    },
+    {
+      "id": "10.endmatter.review",
+      "type": "endmatter",
+      "level": 2,
+      "title": "复习题",
+      "page": 650,
+      "parent_id": "10",
+      "chapter": 10
+    },
+    {
+      "id": "10.endmatter.supp",
+      "type": "endmatter",
+      "level": 2,
+      "title": "补充练习",
+      "page": 651,
+      "parent_id": "10",
+      "chapter": 10
+    },
+    {
+      "id": "10.endmatter.cs",
+      "type": "endmatter",
+      "level": 2,
+      "title": "计算机课题",
+      "page": 656,
+      "parent_id": "10",
+      "chapter": 10
+    },
+    {
+      "id": "10.endmatter.explore",
+      "type": "endmatter",
+      "level": 2,
+      "title": "计算和探索",
+      "page": 656,
+      "parent_id": "10",
+      "chapter": 10
+    },
+    {
+      "id": "10.endmatter.writing",
+      "type": "endmatter",
+      "level": 2,
+      "title": "写作课题",
+      "page": 657,
+      "parent_id": "10",
+      "chapter": 10
+    },
+    {
+      "id": "11",
+      "type": "chapter",
+      "level": 1,
+      "title": "树",
+      "page": 658,
+      "parent_id": null,
+      "chapter": 11
+    },
+    {
+      "id": "11.1",
+      "type": "section",
+      "level": 2,
+      "title": "树的概述",
+      "page": 658,
+      "parent_id": "11",
+      "chapter": 11
+    },
+    {
+      "id": "11.1.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "有根树",
+      "page": 659,
+      "parent_id": "11.1",
+      "chapter": 11
+    },
+    {
+      "id": "11.1.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "树作为模型",
+      "page": 662,
+      "parent_id": "11.1",
+      "chapter": 11
+    },
+    {
+      "id": "11.1.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "树的性质",
+      "page": 663,
+      "parent_id": "11.1",
+      "chapter": 11
+    },
+    {
+      "id": "11.1.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 666,
+      "parent_id": "11.1",
+      "chapter": 11
+    },
+    {
+      "id": "11.2",
+      "type": "section",
+      "level": 2,
+      "title": "树的应用",
+      "page": 668,
+      "parent_id": "11",
+      "chapter": 11
+    },
+    {
+      "id": "11.2.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 668,
+      "parent_id": "11.2",
+      "chapter": 11
+    },
+    {
+      "id": "11.2.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "二叉搜索树",
+      "page": 668,
+      "parent_id": "11.2",
+      "chapter": 11
+    },
+    {
+      "id": "11.2.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "决策树",
+      "page": 671,
+      "parent_id": "11.2",
+      "chapter": 11
+    },
+    {
+      "id": "11.2.4",
+      "type": "subsection",
+      "level": 3,
+      "title": "前缀码",
+      "page": 672,
+      "parent_id": "11.2",
+      "chapter": 11
+    },
+    {
+      "id": "11.2.5",
+      "type": "subsection",
+      "level": 3,
+      "title": "博弈树",
+      "page": 674,
+      "parent_id": "11.2",
+      "chapter": 11
+    },
+    {
+      "id": "11.2.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 678,
+      "parent_id": "11.2",
+      "chapter": 11
+    },
+    {
+      "id": "11.3",
+      "type": "section",
+      "level": 2,
+      "title": "树的遍历",
+      "page": 681,
+      "parent_id": "11",
+      "chapter": 11
+    },
+    {
+      "id": "11.3.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 681,
+      "parent_id": "11.3",
+      "chapter": 11
+    },
+    {
+      "id": "11.3.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "通用地址系统",
+      "page": 681,
+      "parent_id": "11.3",
+      "chapter": 11
+    },
+    {
+      "id": "11.3.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "遍历算法",
+      "page": 682,
+      "parent_id": "11.3",
+      "chapter": 11
+    },
+    {
+      "id": "11.3.4",
+      "type": "subsection",
+      "level": 3,
+      "title": "中缀、前缀和后缀记法",
+      "page": 688,
+      "parent_id": "11.3",
+      "chapter": 11
+    },
+    {
+      "id": "11.3.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 690,
+      "parent_id": "11.3",
+      "chapter": 11
+    },
+    {
+      "id": "11.4",
+      "type": "section",
+      "level": 2,
+      "title": "生成树",
+      "page": 693,
+      "parent_id": "11",
+      "chapter": 11
+    },
+    {
+      "id": "11.4.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 693,
+      "parent_id": "11.4",
+      "chapter": 11
+    },
+    {
+      "id": "11.4.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "深度优先搜索",
+      "page": 694,
+      "parent_id": "11.4",
+      "chapter": 11
+    },
+    {
+      "id": "11.4.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "宽度优先搜索",
+      "page": 696,
+      "parent_id": "11.4",
+      "chapter": 11
+    },
+    {
+      "id": "11.4.4",
+      "type": "subsection",
+      "level": 3,
+      "title": "回溯的应用",
+      "page": 698,
+      "parent_id": "11.4",
+      "chapter": 11
+    },
+    {
+      "id": "11.4.5",
+      "type": "subsection",
+      "level": 3,
+      "title": "有向图中的深度优先搜索",
+      "page": 700,
+      "parent_id": "11.4",
+      "chapter": 11
+    },
+    {
+      "id": "11.4.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 701,
+      "parent_id": "11.4",
+      "chapter": 11
+    },
+    {
+      "id": "11.5",
+      "type": "section",
+      "level": 2,
+      "title": "最小生成树",
+      "page": 704,
+      "parent_id": "11",
+      "chapter": 11
+    },
+    {
+      "id": "11.5.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 704,
+      "parent_id": "11.5",
+      "chapter": 11
+    },
+    {
+      "id": "11.5.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "最小生成树算法",
+      "page": 704,
+      "parent_id": "11.5",
+      "chapter": 11
+    },
+    {
+      "id": "11.5.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 707,
+      "parent_id": "11.5",
+      "chapter": 11
+    },
+    {
+      "id": "11.endmatter.glossary",
+      "type": "endmatter",
+      "level": 2,
+      "title": "关键术语和结论",
+      "page": 709,
+      "parent_id": "11",
+      "chapter": 11
+    },
+    {
+      "id": "11.endmatter.review",
+      "type": "endmatter",
+      "level": 2,
+      "title": "复习题",
+      "page": 710,
+      "parent_id": "11",
+      "chapter": 11
+    },
+    {
+      "id": "11.endmatter.supp",
+      "type": "endmatter",
+      "level": 2,
+      "title": "补充练习",
+      "page": 711,
+      "parent_id": "11",
+      "chapter": 11
+    },
+    {
+      "id": "11.endmatter.cs",
+      "type": "endmatter",
+      "level": 2,
+      "title": "计算机课题",
+      "page": 714,
+      "parent_id": "11",
+      "chapter": 11
+    },
+    {
+      "id": "11.endmatter.explore",
+      "type": "endmatter",
+      "level": 2,
+      "title": "计算和探索",
+      "page": 714,
+      "parent_id": "11",
+      "chapter": 11
+    },
+    {
+      "id": "11.endmatter.writing",
+      "type": "endmatter",
+      "level": 2,
+      "title": "写作课题",
+      "page": 715,
+      "parent_id": "11",
+      "chapter": 11
+    },
+    {
+      "id": "12",
+      "type": "chapter",
+      "level": 1,
+      "title": "布尔代数",
+      "page": 716,
+      "parent_id": null,
+      "chapter": 12
+    },
+    {
+      "id": "12.1",
+      "type": "section",
+      "level": 2,
+      "title": "布尔函数",
+      "page": 716,
+      "parent_id": "12",
+      "chapter": 12
+    },
+    {
+      "id": "12.1.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 716,
+      "parent_id": "12.1",
+      "chapter": 12
+    },
+    {
+      "id": "12.1.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "布尔表达式和布尔函数",
+      "page": 717,
+      "parent_id": "12.1",
+      "chapter": 12
+    },
+    {
+      "id": "12.1.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "布尔代数恒等式",
+      "page": 718,
+      "parent_id": "12.1",
+      "chapter": 12
+    },
+    {
+      "id": "12.1.4",
+      "type": "subsection",
+      "level": 3,
+      "title": "对偶性",
+      "page": 720,
+      "parent_id": "12.1",
+      "chapter": 12
+    },
+    {
+      "id": "12.1.5",
+      "type": "subsection",
+      "level": 3,
+      "title": "布尔代数的抽象定义",
+      "page": 720,
+      "parent_id": "12.1",
+      "chapter": 12
+    },
+    {
+      "id": "12.1.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 721,
+      "parent_id": "12.1",
+      "chapter": 12
+    },
+    {
+      "id": "12.2",
+      "type": "section",
+      "level": 2,
+      "title": "布尔函数的表示",
+      "page": 722,
+      "parent_id": "12",
+      "chapter": 12
+    },
+    {
+      "id": "12.2.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "积之和展开式",
+      "page": 723,
+      "parent_id": "12.2",
+      "chapter": 12
+    },
+    {
+      "id": "12.2.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "函数完备性",
+      "page": 724,
+      "parent_id": "12.2",
+      "chapter": 12
+    },
+    {
+      "id": "12.2.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 724,
+      "parent_id": "12.2",
+      "chapter": 12
+    },
+    {
+      "id": "12.3",
+      "type": "section",
+      "level": 2,
+      "title": "逻辑门电路",
+      "page": 725,
+      "parent_id": "12",
+      "chapter": 12
+    },
+    {
+      "id": "12.3.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 725,
+      "parent_id": "12.3",
+      "chapter": 12
+    },
+    {
+      "id": "12.3.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "门的组合",
+      "page": 726,
+      "parent_id": "12.3",
+      "chapter": 12
+    },
+    {
+      "id": "12.3.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "电路的例子",
+      "page": 726,
+      "parent_id": "12.3",
+      "chapter": 12
+    },
+    {
+      "id": "12.3.4",
+      "type": "subsection",
+      "level": 3,
+      "title": "加法器",
+      "page": 728,
+      "parent_id": "12.3",
+      "chapter": 12
+    },
+    {
+      "id": "12.3.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 729,
+      "parent_id": "12.3",
+      "chapter": 12
+    },
+    {
+      "id": "12.4",
+      "type": "section",
+      "level": 2,
+      "title": "电路的极小化",
+      "page": 731,
+      "parent_id": "12",
+      "chapter": 12
+    },
+    {
+      "id": "12.4.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 731,
+      "parent_id": "12.4",
+      "chapter": 12
+    },
+    {
+      "id": "12.4.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "卡诺图",
+      "page": 732,
+      "parent_id": "12.4",
+      "chapter": 12
+    },
+    {
+      "id": "12.4.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "无须在意的条件",
+      "page": 737,
+      "parent_id": "12.4",
+      "chapter": 12
+    },
+    {
+      "id": "12.4.4",
+      "type": "subsection",
+      "level": 3,
+      "title": "奎因-莫可拉斯基方法",
+      "page": 737,
+      "parent_id": "12.4",
+      "chapter": 12
+    },
+    {
+      "id": "12.4.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 741,
+      "parent_id": "12.4",
+      "chapter": 12
+    },
+    {
+      "id": "12.endmatter.glossary",
+      "type": "endmatter",
+      "level": 2,
+      "title": "关键术语和结论",
+      "page": 743,
+      "parent_id": "12",
+      "chapter": 12
+    },
+    {
+      "id": "12.endmatter.review",
+      "type": "endmatter",
+      "level": 2,
+      "title": "复习题",
+      "page": 744,
+      "parent_id": "12",
+      "chapter": 12
+    },
+    {
+      "id": "12.endmatter.supp",
+      "type": "endmatter",
+      "level": 2,
+      "title": "补充练习",
+      "page": 744,
+      "parent_id": "12",
+      "chapter": 12
+    },
+    {
+      "id": "12.endmatter.cs",
+      "type": "endmatter",
+      "level": 2,
+      "title": "计算机课题",
+      "page": 746,
+      "parent_id": "12",
+      "chapter": 12
+    },
+    {
+      "id": "12.endmatter.explore",
+      "type": "endmatter",
+      "level": 2,
+      "title": "计算和探索",
+      "page": 746,
+      "parent_id": "12",
+      "chapter": 12
+    },
+    {
+      "id": "12.endmatter.writing",
+      "type": "endmatter",
+      "level": 2,
+      "title": "写作课题",
+      "page": 747,
+      "parent_id": "12",
+      "chapter": 12
+    },
+    {
+      "id": "13",
+      "type": "chapter",
+      "level": 1,
+      "title": "计算模型",
+      "page": 748,
+      "parent_id": null,
+      "chapter": 13
+    },
+    {
+      "id": "13.1",
+      "type": "section",
+      "level": 2,
+      "title": "语言和文法",
+      "page": 748,
+      "parent_id": "13",
+      "chapter": 13
+    },
+    {
+      "id": "13.1.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 748,
+      "parent_id": "13.1",
+      "chapter": 13
+    },
+    {
+      "id": "13.1.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "短语结构文法",
+      "page": 749,
+      "parent_id": "13.1",
+      "chapter": 13
+    },
+    {
+      "id": "13.1.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "短语结构文法的类型",
+      "page": 751,
+      "parent_id": "13.1",
+      "chapter": 13
+    },
+    {
+      "id": "13.1.4",
+      "type": "subsection",
+      "level": 3,
+      "title": "派生树",
+      "page": 752,
+      "parent_id": "13.1",
+      "chapter": 13
+    },
+    {
+      "id": "13.1.5",
+      "type": "subsection",
+      "level": 3,
+      "title": "巴克斯-诺尔范式",
+      "page": 754,
+      "parent_id": "13.1",
+      "chapter": 13
+    },
+    {
+      "id": "13.1.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 755,
+      "parent_id": "13.1",
+      "chapter": 13
+    },
+    {
+      "id": "13.2",
+      "type": "section",
+      "level": 2,
+      "title": "带输出的有限状态机",
+      "page": 758,
+      "parent_id": "13",
+      "chapter": 13
+    },
+    {
+      "id": "13.2.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 758,
+      "parent_id": "13.2",
+      "chapter": 13
+    },
+    {
+      "id": "13.2.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "带输出的有限状态机",
+      "page": 759,
+      "parent_id": "13.2",
+      "chapter": 13
+    },
+    {
+      "id": "13.2.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 762,
+      "parent_id": "13.2",
+      "chapter": 13
+    },
+    {
+      "id": "13.3",
+      "type": "section",
+      "level": 2,
+      "title": "不带输出的有限状态机",
+      "page": 764,
+      "parent_id": "13",
+      "chapter": 13
+    },
+    {
+      "id": "13.3.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 764,
+      "parent_id": "13.3",
+      "chapter": 13
+    },
+    {
+      "id": "13.3.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "串的集合",
+      "page": 764,
+      "parent_id": "13.3",
+      "chapter": 13
+    },
+    {
+      "id": "13.3.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "有限状态自动机",
+      "page": 765,
+      "parent_id": "13.3",
+      "chapter": 13
+    },
+    {
+      "id": "13.3.4",
+      "type": "subsection",
+      "level": 3,
+      "title": "有限状态机的语言识别",
+      "page": 766,
+      "parent_id": "13.3",
+      "chapter": 13
+    },
+    {
+      "id": "13.3.5",
+      "type": "subsection",
+      "level": 3,
+      "title": "非确定性的有限状态自动机",
+      "page": 771,
+      "parent_id": "13.3",
+      "chapter": 13
+    },
+    {
+      "id": "13.3.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 773,
+      "parent_id": "13.3",
+      "chapter": 13
+    },
+    {
+      "id": "13.4",
+      "type": "section",
+      "level": 2,
+      "title": "语言的识别",
+      "page": 777,
+      "parent_id": "13",
+      "chapter": 13
+    },
+    {
+      "id": "13.4.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 777,
+      "parent_id": "13.4",
+      "chapter": 13
+    },
+    {
+      "id": "13.4.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "克莱尼定理",
+      "page": 778,
+      "parent_id": "13.4",
+      "chapter": 13
+    },
+    {
+      "id": "13.4.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "正则集合和正则文法",
+      "page": 781,
+      "parent_id": "13.4",
+      "chapter": 13
+    },
+    {
+      "id": "13.4.4",
+      "type": "subsection",
+      "level": 3,
+      "title": "一个不能由有限状态机识别的集合",
+      "page": 783,
+      "parent_id": "13.4",
+      "chapter": 13
+    },
+    {
+      "id": "13.4.5",
+      "type": "subsection",
+      "level": 3,
+      "title": "一些更强大的机器",
+      "page": 783,
+      "parent_id": "13.4",
+      "chapter": 13
+    },
+    {
+      "id": "13.4.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 784,
+      "parent_id": "13.4",
+      "chapter": 13
+    },
+    {
+      "id": "13.5",
+      "type": "section",
+      "level": 2,
+      "title": "图灵机",
+      "page": 786,
+      "parent_id": "13",
+      "chapter": 13
+    },
+    {
+      "id": "13.5.1",
+      "type": "subsection",
+      "level": 3,
+      "title": "引言",
+      "page": 786,
+      "parent_id": "13.5",
+      "chapter": 13
+    },
+    {
+      "id": "13.5.2",
+      "type": "subsection",
+      "level": 3,
+      "title": "图灵机的定义",
+      "page": 787,
+      "parent_id": "13.5",
+      "chapter": 13
+    },
+    {
+      "id": "13.5.3",
+      "type": "subsection",
+      "level": 3,
+      "title": "用图灵机识别集合",
+      "page": 789,
+      "parent_id": "13.5",
+      "chapter": 13
+    },
+    {
+      "id": "13.5.4",
+      "type": "subsection",
+      "level": 3,
+      "title": "用图灵机计算函数",
+      "page": 790,
+      "parent_id": "13.5",
+      "chapter": 13
+    },
+    {
+      "id": "13.5.5",
+      "type": "subsection",
+      "level": 3,
+      "title": "不同类型的图灵机",
+      "page": 790,
+      "parent_id": "13.5",
+      "chapter": 13
+    },
+    {
+      "id": "13.5.6",
+      "type": "subsection",
+      "level": 3,
+      "title": "丘奇-图灵论题",
+      "page": 791,
+      "parent_id": "13.5",
+      "chapter": 13
+    },
+    {
+      "id": "13.5.7",
+      "type": "subsection",
+      "level": 3,
+      "title": "计算复杂度、可计算性和可判定性",
+      "page": 791,
+      "parent_id": "13.5",
+      "chapter": 13
+    },
+    {
+      "id": "13.5.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "练习",
+      "page": 794,
+      "parent_id": "13.5",
+      "chapter": 13
+    },
+    {
+      "id": "13.endmatter.glossary",
+      "type": "endmatter",
+      "level": 2,
+      "title": "关键术语和结论",
+      "page": 796,
+      "parent_id": "13",
+      "chapter": 13
+    },
+    {
+      "id": "13.endmatter.review",
+      "type": "endmatter",
+      "level": 2,
+      "title": "复习题",
+      "page": 797,
+      "parent_id": "13",
+      "chapter": 13
+    },
+    {
+      "id": "13.endmatter.supp",
+      "type": "endmatter",
+      "level": 2,
+      "title": "补充练习",
+      "page": 798,
+      "parent_id": "13",
+      "chapter": 13
+    },
+    {
+      "id": "13.endmatter.cs",
+      "type": "endmatter",
+      "level": 2,
+      "title": "计算机课题",
+      "page": 800,
+      "parent_id": "13",
+      "chapter": 13
+    },
+    {
+      "id": "13.endmatter.explore",
+      "type": "endmatter",
+      "level": 2,
+      "title": "计算和探索",
+      "page": 800,
+      "parent_id": "13",
+      "chapter": 13
+    },
+    {
+      "id": "13.endmatter.writing",
+      "type": "endmatter",
+      "level": 2,
+      "title": "写作课题",
+      "page": 800,
+      "parent_id": "13",
+      "chapter": 13
+    },
+    {
+      "id": "A",
+      "type": "appendix",
+      "level": 1,
+      "title": "实数和正整数的公理",
+      "page": 802,
+      "parent_id": null,
+      "chapter": null
+    },
+    {
+      "id": "B",
+      "type": "appendix",
+      "level": 1,
+      "title": "指数与对数函数",
+      "page": 807,
+      "parent_id": null,
+      "chapter": null
+    },
+    {
+      "id": "C",
+      "type": "appendix",
+      "level": 1,
+      "title": "伪代码",
+      "page": 809,
+      "parent_id": null,
+      "chapter": null
+    },
+    {
+      "id": "backmatter.readings",
+      "type": "frontmatter",
+      "level": 1,
+      "title": "推荐读物",
+      "page": 813,
+      "parent_id": null,
+      "chapter": null
+    },
+    {
+      "id": "backmatter.refs",
+      "type": "frontmatter",
+      "level": 1,
+      "title": "参考文献",
+      "page": 817,
+      "parent_id": null,
+      "chapter": null
+    },
+    {
+      "id": "backmatter.answers",
+      "type": "frontmatter",
+      "level": 1,
+      "title": "奇数编号练习答案",
+      "page": null,
+      "parent_id": null,
+      "chapter": null,
+      "note": "中文 8 版扫描 PDF 未收录答案章节（附录 C 之后直接进入推荐读物），故不生成书签。"
+    }
+  ]
+}
