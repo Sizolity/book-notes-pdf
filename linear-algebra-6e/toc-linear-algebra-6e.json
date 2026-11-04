@@ -1,0 +1,1026 @@
+{
+  "metadata": {
+    "title_zh": "线性代数（第6版）",
+    "title_en": "Introduction to Linear Algebra",
+    "edition": "6E",
+    "publisher": "Tsinghua University Press / Wellesley-Cambridge Press",
+    "isbn_zh": "978-7-302-66807-7",
+    "isbn_en": "978-1-7331466-7-8",
+    "extracted_at": "2026-08-19",
+    "source": "书内 Contents（PDF p.10–11 / 书页 vii–viii）+ Problem Set 页码对照",
+    "schema": {
+      "id": "层级编号，例 '1' / '1.1' / '1.1.exercises' / 'frontmatter.preface'",
+      "type": "chapter | section | exercises | appendix | frontmatter",
+      "level": "1=章/附录/前置, 2=节, 3=Problem Set",
+      "title": "英文标题（影印正文为英文）",
+      "page": "起始书页码（int 或 null）",
+      "parent_id": "父节点 id；章/前置/附录 = null",
+      "chapter": "归属章号（int 或 null）"
+    },
+    "notes": [
+      "清华影印扫描版 PDF 共 442 页，无文本层、无内置大纲。",
+      "OFFSET=11：PDF 第 12 页 = 书第 1 页（前 3 页封面/书名/版权 + 前言 i–vi + 目录 vii–viii）。",
+      "page 为阿拉伯数字书页码；封面/版权/前言/目录/封底用 pdf_page。",
+      "Appendix 10 以本书目录与正文为准（书页 414），MIT outline / 另一电子版书签里的 413 是 A9 末页。",
+      "Problem Set 页码来自同版英文 PDF 文本层检索，并去掉正文里对习题集的提及。"
+    ]
+  },
+  "items": [
+    {
+      "id": "frontmatter.cover",
+      "type": "frontmatter",
+      "level": 1,
+      "title": "Cover",
+      "page": null,
+      "parent_id": null,
+      "chapter": null,
+      "pdf_page": 1
+    },
+    {
+      "id": "frontmatter.title",
+      "type": "frontmatter",
+      "level": 1,
+      "title": "Title Page",
+      "page": null,
+      "parent_id": null,
+      "chapter": null,
+      "pdf_page": 2
+    },
+    {
+      "id": "frontmatter.copyright",
+      "type": "frontmatter",
+      "level": 1,
+      "title": "Copyright",
+      "page": null,
+      "parent_id": null,
+      "chapter": null,
+      "pdf_page": 3
+    },
+    {
+      "id": "frontmatter.preface",
+      "type": "frontmatter",
+      "level": 1,
+      "title": "Preface",
+      "page": null,
+      "parent_id": null,
+      "chapter": null,
+      "pdf_page": 4
+    },
+    {
+      "id": "frontmatter.contents",
+      "type": "frontmatter",
+      "level": 1,
+      "title": "Contents",
+      "page": null,
+      "parent_id": null,
+      "chapter": null,
+      "pdf_page": 10
+    },
+    {
+      "id": "1",
+      "type": "chapter",
+      "level": 1,
+      "title": "Vectors and Matrices",
+      "page": 1,
+      "parent_id": null,
+      "chapter": 1
+    },
+    {
+      "id": "1.1",
+      "type": "section",
+      "level": 2,
+      "title": "Vectors and Linear Combinations",
+      "page": 2,
+      "parent_id": "1",
+      "chapter": 1
+    },
+    {
+      "id": "1.1.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "Problem Set 1.1",
+      "page": 6,
+      "parent_id": "1.1",
+      "chapter": 1
+    },
+    {
+      "id": "1.2",
+      "type": "section",
+      "level": 2,
+      "title": "Lengths and Angles from Dot Products",
+      "page": 9,
+      "parent_id": "1",
+      "chapter": 1
+    },
+    {
+      "id": "1.2.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "Problem Set 1.2",
+      "page": 15,
+      "parent_id": "1.2",
+      "chapter": 1
+    },
+    {
+      "id": "1.3",
+      "type": "section",
+      "level": 2,
+      "title": "Matrices and Their Column Spaces",
+      "page": 18,
+      "parent_id": "1",
+      "chapter": 1
+    },
+    {
+      "id": "1.3.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "Problem Set 1.3",
+      "page": 24,
+      "parent_id": "1.3",
+      "chapter": 1
+    },
+    {
+      "id": "1.4",
+      "type": "section",
+      "level": 2,
+      "title": "Matrix Multiplication AB and CR",
+      "page": 27,
+      "parent_id": "1",
+      "chapter": 1
+    },
+    {
+      "id": "1.4.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "Problem Set 1.4",
+      "page": 35,
+      "parent_id": "1.4",
+      "chapter": 1
+    },
+    {
+      "id": "2",
+      "type": "chapter",
+      "level": 1,
+      "title": "Solving Linear Equations Ax = b",
+      "page": 39,
+      "parent_id": null,
+      "chapter": 2
+    },
+    {
+      "id": "2.1",
+      "type": "section",
+      "level": 2,
+      "title": "Elimination and Back Substitution",
+      "page": 40,
+      "parent_id": "2",
+      "chapter": 2
+    },
+    {
+      "id": "2.1.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "Problem Set 2.1",
+      "page": 46,
+      "parent_id": "2.1",
+      "chapter": 2
+    },
+    {
+      "id": "2.2",
+      "type": "section",
+      "level": 2,
+      "title": "Elimination Matrices and Inverse Matrices",
+      "page": 49,
+      "parent_id": "2",
+      "chapter": 2
+    },
+    {
+      "id": "2.2.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "Problem Set 2.2",
+      "page": 53,
+      "parent_id": "2.2",
+      "chapter": 2
+    },
+    {
+      "id": "2.3",
+      "type": "section",
+      "level": 2,
+      "title": "Matrix Computations and A = LU",
+      "page": 57,
+      "parent_id": "2",
+      "chapter": 2
+    },
+    {
+      "id": "2.3.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "Problem Set 2.3",
+      "page": 61,
+      "parent_id": "2.3",
+      "chapter": 2
+    },
+    {
+      "id": "2.4",
+      "type": "section",
+      "level": 2,
+      "title": "Permutations and Transposes",
+      "page": 64,
+      "parent_id": "2",
+      "chapter": 2
+    },
+    {
+      "id": "2.4.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "Problem Set 2.4",
+      "page": 71,
+      "parent_id": "2.4",
+      "chapter": 2
+    },
+    {
+      "id": "2.5",
+      "type": "section",
+      "level": 2,
+      "title": "Derivatives and Finite Difference Matrices",
+      "page": 74,
+      "parent_id": "2",
+      "chapter": 2
+    },
+    {
+      "id": "2.5.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "Problem Set 2.5",
+      "page": 81,
+      "parent_id": "2.5",
+      "chapter": 2
+    },
+    {
+      "id": "3",
+      "type": "chapter",
+      "level": 1,
+      "title": "The Four Fundamental Subspaces",
+      "page": 84,
+      "parent_id": null,
+      "chapter": 3
+    },
+    {
+      "id": "3.1",
+      "type": "section",
+      "level": 2,
+      "title": "Vector Spaces and Subspaces",
+      "page": 85,
+      "parent_id": "3",
+      "chapter": 3
+    },
+    {
+      "id": "3.1.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "Problem Set 3.1",
+      "page": 89,
+      "parent_id": "3.1",
+      "chapter": 3
+    },
+    {
+      "id": "3.2",
+      "type": "section",
+      "level": 2,
+      "title": "Computing the Nullspace by Elimination: A = CR",
+      "page": 93,
+      "parent_id": "3",
+      "chapter": 3
+    },
+    {
+      "id": "3.2.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "Problem Set 3.2",
+      "page": 100,
+      "parent_id": "3.2",
+      "chapter": 3
+    },
+    {
+      "id": "3.3",
+      "type": "section",
+      "level": 2,
+      "title": "The Complete Solution to Ax = b",
+      "page": 104,
+      "parent_id": "3",
+      "chapter": 3
+    },
+    {
+      "id": "3.3.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "Problem Set 3.3",
+      "page": 111,
+      "parent_id": "3.3",
+      "chapter": 3
+    },
+    {
+      "id": "3.4",
+      "type": "section",
+      "level": 2,
+      "title": "Independence, Basis, and Dimension",
+      "page": 115,
+      "parent_id": "3",
+      "chapter": 3
+    },
+    {
+      "id": "3.4.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "Problem Set 3.4",
+      "page": 124,
+      "parent_id": "3.4",
+      "chapter": 3
+    },
+    {
+      "id": "3.5",
+      "type": "section",
+      "level": 2,
+      "title": "Dimensions of the Four Subspaces",
+      "page": 129,
+      "parent_id": "3",
+      "chapter": 3
+    },
+    {
+      "id": "3.5.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "Problem Set 3.5",
+      "page": 137,
+      "parent_id": "3.5",
+      "chapter": 3
+    },
+    {
+      "id": "4",
+      "type": "chapter",
+      "level": 1,
+      "title": "Orthogonality",
+      "page": 143,
+      "parent_id": null,
+      "chapter": 4
+    },
+    {
+      "id": "4.1",
+      "type": "section",
+      "level": 2,
+      "title": "Orthogonality of Vectors and Subspaces",
+      "page": 144,
+      "parent_id": "4",
+      "chapter": 4
+    },
+    {
+      "id": "4.1.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "Problem Set 4.1",
+      "page": 148,
+      "parent_id": "4.1",
+      "chapter": 4
+    },
+    {
+      "id": "4.2",
+      "type": "section",
+      "level": 2,
+      "title": "Projections onto Lines and Subspaces",
+      "page": 151,
+      "parent_id": "4",
+      "chapter": 4
+    },
+    {
+      "id": "4.2.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "Problem Set 4.2",
+      "page": 159,
+      "parent_id": "4.2",
+      "chapter": 4
+    },
+    {
+      "id": "4.3",
+      "type": "section",
+      "level": 2,
+      "title": "Least Squares Approximations",
+      "page": 163,
+      "parent_id": "4",
+      "chapter": 4
+    },
+    {
+      "id": "4.3.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "Problem Set 4.3",
+      "page": 172,
+      "parent_id": "4.3",
+      "chapter": 4
+    },
+    {
+      "id": "4.4",
+      "type": "section",
+      "level": 2,
+      "title": "Orthonormal Bases and Gram-Schmidt",
+      "page": 176,
+      "parent_id": "4",
+      "chapter": 4
+    },
+    {
+      "id": "4.4.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "Problem Set 4.4",
+      "page": 186,
+      "parent_id": "4.4",
+      "chapter": 4
+    },
+    {
+      "id": "4.5",
+      "type": "section",
+      "level": 2,
+      "title": "The Pseudoinverse of a Matrix",
+      "page": 190,
+      "parent_id": "4",
+      "chapter": 4
+    },
+    {
+      "id": "4.5.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "Problem Set 4.5",
+      "page": 196,
+      "parent_id": "4.5",
+      "chapter": 4
+    },
+    {
+      "id": "5",
+      "type": "chapter",
+      "level": 1,
+      "title": "Determinants",
+      "page": 198,
+      "parent_id": null,
+      "chapter": 5
+    },
+    {
+      "id": "5.1",
+      "type": "section",
+      "level": 2,
+      "title": "3 by 3 Determinants and Cofactors",
+      "page": 199,
+      "parent_id": "5",
+      "chapter": 5
+    },
+    {
+      "id": "5.1.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "Problem Set 5.1",
+      "page": 203,
+      "parent_id": "5.1",
+      "chapter": 5
+    },
+    {
+      "id": "5.2",
+      "type": "section",
+      "level": 2,
+      "title": "Computing and Using Determinants",
+      "page": 205,
+      "parent_id": "5",
+      "chapter": 5
+    },
+    {
+      "id": "5.2.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "Problem Set 5.2",
+      "page": 209,
+      "parent_id": "5.2",
+      "chapter": 5
+    },
+    {
+      "id": "5.3",
+      "type": "section",
+      "level": 2,
+      "title": "Areas and Volumes by Determinants",
+      "page": 211,
+      "parent_id": "5",
+      "chapter": 5
+    },
+    {
+      "id": "5.3.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "Problem Set 5.3",
+      "page": 214,
+      "parent_id": "5.3",
+      "chapter": 5
+    },
+    {
+      "id": "6",
+      "type": "chapter",
+      "level": 1,
+      "title": "Eigenvalues and Eigenvectors",
+      "page": 216,
+      "parent_id": null,
+      "chapter": 6
+    },
+    {
+      "id": "6.1",
+      "type": "section",
+      "level": 2,
+      "title": "Introduction to Eigenvalues: Ax = λx",
+      "page": 217,
+      "parent_id": "6",
+      "chapter": 6
+    },
+    {
+      "id": "6.1.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "Problem Set 6.1",
+      "page": 226,
+      "parent_id": "6.1",
+      "chapter": 6
+    },
+    {
+      "id": "6.2",
+      "type": "section",
+      "level": 2,
+      "title": "Diagonalizing a Matrix",
+      "page": 232,
+      "parent_id": "6",
+      "chapter": 6
+    },
+    {
+      "id": "6.2.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "Problem Set 6.2",
+      "page": 242,
+      "parent_id": "6.2",
+      "chapter": 6
+    },
+    {
+      "id": "6.3",
+      "type": "section",
+      "level": 2,
+      "title": "Symmetric Positive Definite Matrices",
+      "page": 246,
+      "parent_id": "6",
+      "chapter": 6
+    },
+    {
+      "id": "6.3.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "Problem Set 6.3",
+      "page": 257,
+      "parent_id": "6.3",
+      "chapter": 6
+    },
+    {
+      "id": "6.4",
+      "type": "section",
+      "level": 2,
+      "title": "Complex Numbers and Vectors and Matrices",
+      "page": 262,
+      "parent_id": "6",
+      "chapter": 6
+    },
+    {
+      "id": "6.4.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "Problem Set 6.4",
+      "page": 269,
+      "parent_id": "6.4",
+      "chapter": 6
+    },
+    {
+      "id": "6.5",
+      "type": "section",
+      "level": 2,
+      "title": "Solving Linear Differential Equations",
+      "page": 270,
+      "parent_id": "6",
+      "chapter": 6
+    },
+    {
+      "id": "6.5.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "Problem Set 6.5",
+      "page": 280,
+      "parent_id": "6.5",
+      "chapter": 6
+    },
+    {
+      "id": "7",
+      "type": "chapter",
+      "level": 1,
+      "title": "The Singular Value Decomposition (SVD)",
+      "page": 286,
+      "parent_id": null,
+      "chapter": 7
+    },
+    {
+      "id": "7.1",
+      "type": "section",
+      "level": 2,
+      "title": "Singular Values and Singular Vectors",
+      "page": 287,
+      "parent_id": "7",
+      "chapter": 7
+    },
+    {
+      "id": "7.1.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "Problem Set 7.1",
+      "page": 295,
+      "parent_id": "7.1",
+      "chapter": 7
+    },
+    {
+      "id": "7.2",
+      "type": "section",
+      "level": 2,
+      "title": "Image Processing by Linear Algebra",
+      "page": 297,
+      "parent_id": "7",
+      "chapter": 7
+    },
+    {
+      "id": "7.2.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "Problem Set 7.2",
+      "page": 301,
+      "parent_id": "7.2",
+      "chapter": 7
+    },
+    {
+      "id": "7.3",
+      "type": "section",
+      "level": 2,
+      "title": "Principal Component Analysis (PCA by the SVD)",
+      "page": 302,
+      "parent_id": "7",
+      "chapter": 7
+    },
+    {
+      "id": "7.3.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "Problem Set 7.3",
+      "page": 307,
+      "parent_id": "7.3",
+      "chapter": 7
+    },
+    {
+      "id": "8",
+      "type": "chapter",
+      "level": 1,
+      "title": "Linear Transformations",
+      "page": 308,
+      "parent_id": null,
+      "chapter": 8
+    },
+    {
+      "id": "8.1",
+      "type": "section",
+      "level": 2,
+      "title": "The Idea of a Linear Transformation",
+      "page": 309,
+      "parent_id": "8",
+      "chapter": 8
+    },
+    {
+      "id": "8.1.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "Problem Set 8.1",
+      "page": 315,
+      "parent_id": "8.1",
+      "chapter": 8
+    },
+    {
+      "id": "8.2",
+      "type": "section",
+      "level": 2,
+      "title": "The Matrix of a Linear Transformation",
+      "page": 318,
+      "parent_id": "8",
+      "chapter": 8
+    },
+    {
+      "id": "8.2.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "Problem Set 8.2",
+      "page": 324,
+      "parent_id": "8.2",
+      "chapter": 8
+    },
+    {
+      "id": "8.3",
+      "type": "section",
+      "level": 2,
+      "title": "The Search for a Good Basis",
+      "page": 327,
+      "parent_id": "8",
+      "chapter": 8
+    },
+    {
+      "id": "8.3.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "Problem Set 8.3",
+      "page": 334,
+      "parent_id": "8.3",
+      "chapter": 8
+    },
+    {
+      "id": "9",
+      "type": "chapter",
+      "level": 1,
+      "title": "Linear Algebra in Optimization",
+      "page": 335,
+      "parent_id": null,
+      "chapter": 9
+    },
+    {
+      "id": "9.1",
+      "type": "section",
+      "level": 2,
+      "title": "Minimizing a Multivariable Function",
+      "page": 336,
+      "parent_id": "9",
+      "chapter": 9
+    },
+    {
+      "id": "9.1.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "Problem Set 9.1",
+      "page": 345,
+      "parent_id": "9.1",
+      "chapter": 9
+    },
+    {
+      "id": "9.2",
+      "type": "section",
+      "level": 2,
+      "title": "Backpropagation and Stochastic Gradient Descent",
+      "page": 346,
+      "parent_id": "9",
+      "chapter": 9
+    },
+    {
+      "id": "9.2.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "Problem Set 9.2",
+      "page": 353,
+      "parent_id": "9.2",
+      "chapter": 9
+    },
+    {
+      "id": "9.3",
+      "type": "section",
+      "level": 2,
+      "title": "Constraints, Lagrange Multipliers, Minimum Norms",
+      "page": 355,
+      "parent_id": "9",
+      "chapter": 9
+    },
+    {
+      "id": "9.3.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "Problem Set 9.3",
+      "page": 363,
+      "parent_id": "9.3",
+      "chapter": 9
+    },
+    {
+      "id": "9.4",
+      "type": "section",
+      "level": 2,
+      "title": "Linear Programming, Game Theory, and Duality",
+      "page": 364,
+      "parent_id": "9",
+      "chapter": 9
+    },
+    {
+      "id": "9.4.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "Problem Set 9.4",
+      "page": 369,
+      "parent_id": "9.4",
+      "chapter": 9
+    },
+    {
+      "id": "10",
+      "type": "chapter",
+      "level": 1,
+      "title": "Learning from Data",
+      "page": 370,
+      "parent_id": null,
+      "chapter": 10
+    },
+    {
+      "id": "10.1",
+      "type": "section",
+      "level": 2,
+      "title": "Piecewise Linear Learning Functions",
+      "page": 372,
+      "parent_id": "10",
+      "chapter": 10
+    },
+    {
+      "id": "10.1.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "Problem Set 10.1",
+      "page": 380,
+      "parent_id": "10.1",
+      "chapter": 10
+    },
+    {
+      "id": "10.2",
+      "type": "section",
+      "level": 2,
+      "title": "Creating and Experimenting",
+      "page": 381,
+      "parent_id": "10",
+      "chapter": 10
+    },
+    {
+      "id": "10.2.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "Problem Set 10.2",
+      "page": 385,
+      "parent_id": "10.2",
+      "chapter": 10
+    },
+    {
+      "id": "10.3",
+      "type": "section",
+      "level": 2,
+      "title": "Mean, Variance, and Covariance",
+      "page": 386,
+      "parent_id": "10",
+      "chapter": 10
+    },
+    {
+      "id": "10.3.exercises",
+      "type": "exercises",
+      "level": 3,
+      "title": "Problem Set 10.3",
+      "page": 398,
+      "parent_id": "10.3",
+      "chapter": 10
+    },
+    {
+      "id": "A1",
+      "type": "appendix",
+      "level": 1,
+      "title": "The Ranks of AB and A + B",
+      "page": 400,
+      "parent_id": null,
+      "chapter": null
+    },
+    {
+      "id": "A2",
+      "type": "appendix",
+      "level": 1,
+      "title": "Matrix Factorizations",
+      "page": 401,
+      "parent_id": null,
+      "chapter": null
+    },
+    {
+      "id": "A3",
+      "type": "appendix",
+      "level": 1,
+      "title": "Counting Parameters in the Basic Factorizations",
+      "page": 403,
+      "parent_id": null,
+      "chapter": null
+    },
+    {
+      "id": "A4",
+      "type": "appendix",
+      "level": 1,
+      "title": "Codes and Algorithms for Numerical Linear Algebra",
+      "page": 404,
+      "parent_id": null,
+      "chapter": null
+    },
+    {
+      "id": "A5",
+      "type": "appendix",
+      "level": 1,
+      "title": "The Jordan Form of a Square Matrix",
+      "page": 405,
+      "parent_id": null,
+      "chapter": null
+    },
+    {
+      "id": "A6",
+      "type": "appendix",
+      "level": 1,
+      "title": "Tensors",
+      "page": 406,
+      "parent_id": null,
+      "chapter": null
+    },
+    {
+      "id": "A7",
+      "type": "appendix",
+      "level": 1,
+      "title": "The Condition Number of a Matrix Problem",
+      "page": 407,
+      "parent_id": null,
+      "chapter": null
+    },
+    {
+      "id": "A8",
+      "type": "appendix",
+      "level": 1,
+      "title": "Markov Matrices and Perron-Frobenius",
+      "page": 408,
+      "parent_id": null,
+      "chapter": null
+    },
+    {
+      "id": "A9",
+      "type": "appendix",
+      "level": 1,
+      "title": "Elimination and Factorization",
+      "page": 410,
+      "parent_id": null,
+      "chapter": null
+    },
+    {
+      "id": "A10",
+      "type": "appendix",
+      "level": 1,
+      "title": "Computer Graphics",
+      "page": 414,
+      "parent_id": null,
+      "chapter": null
+    },
+    {
+      "id": "backmatter.eqindex",
+      "type": "frontmatter",
+      "level": 1,
+      "title": "Index of Equations",
+      "page": 419,
+      "parent_id": null,
+      "chapter": null
+    },
+    {
+      "id": "backmatter.notations",
+      "type": "frontmatter",
+      "level": 1,
+      "title": "Index of Notations",
+      "page": 422,
+      "parent_id": null,
+      "chapter": null
+    },
+    {
+      "id": "backmatter.index",
+      "type": "frontmatter",
+      "level": 1,
+      "title": "Index",
+      "page": 423,
+      "parent_id": null,
+      "chapter": null
+    },
+    {
+      "id": "backmatter.theorems",
+      "type": "frontmatter",
+      "level": 1,
+      "title": "Six Great Theorems of Linear Algebra",
+      "page": 430,
+      "parent_id": null,
+      "chapter": null
+    },
+    {
+      "id": "backmatter.cover",
+      "type": "frontmatter",
+      "level": 1,
+      "title": "Back Cover",
+      "page": null,
+      "parent_id": null,
+      "chapter": null,
+      "pdf_page": 442
+    }
+  ]
+}
