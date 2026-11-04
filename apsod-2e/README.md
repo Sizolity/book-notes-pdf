@@ -41,18 +41,6 @@ apsod-2e/
 - `toc.ncx` 本身**不带锚点**，156 条 src 全部只指向文件。节级锚点要从正文取：每章 XHTML 里小节标题是带 `id` 的段落元素，按 `id` 加文本前缀 `N.M` 配对，当时 124 个小节全部解析成功。
 - 定位字段用 `href` + `spine` + `fragment`，替代前两本书的 `page` / `pdf_page` / `note` 三件套。EPUB 没有书页码与物理页的偏移问题，因此不存在 OFFSET 系数。
 
----
-
-## 源文件
-
-源 EPUB 是维护者留在本机 `Downloads` 目录的个人副本，**不在版本库内**（`.gitignore` 已排除 `*/source/` 与 `*.epub`）。
-
-内部结构供重建脚本参考：OPF 位于包内根目录，正文为 31 个 `OEBPS/partNNNN.xhtml`，另有 `toc.ncx`。
-
-文件指纹与精确字节数不写在这里，改记于不入库的本地文件 `source-checksums.local.txt`。
-
----
-
 ## 已知瑕疵
 
 - `extracts/` 与 `en/` 内容重叠，可删。

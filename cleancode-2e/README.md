@@ -28,20 +28,6 @@ cleancode-2e/
 
 因此 `en/` 下的 md 与其同名图片目录**必须一起移动**，单独挪 md 会全部断链。
 
----
-
-## 源文件
-
-源 EPUB 是维护者留在本机 `Downloads` 目录的个人副本，**不在版本库内**（`.gitignore` 已排除 `*/source/` 与 `*.epub`）。
-
-内部结构供重转参考：OPF 位于 `OEBPS/` 下、以该书 ISBN-13 命名，正文为 37 个 `OEBPS/chNN.html`，另有 120 张页面图片。
-
-文件指纹与精确字节数不写在这里，改记于不入库的本地文件 `source-checksums.local.txt`。
-
-本机 `Downloads` 里同时存在同一份的第二版副本（不同文件名、内容相同）以及一份**第一版** EPUB。重转时按章数判别版本：37 章为第二版，17 章为第一版，不要混用。
-
----
-
 ## 已知瑕疵
 
 51 个文件的章标题里残留 HTML：形如 `## <span class="ash">Chapter 5</span>. Comments`。Typora 会正常渲染，但大纲面板的条目文字会带上标签内容。清理是一条 sed 的事，尚未执行。
