@@ -1,8 +1,8 @@
 # Clean Code: A Handbook of Agile Software Craftsmanship（第 2 版）
 
-Robert C. Martin，2025 年第二版。
+Robert C. Martin，第二版。
 
-版次判定依据：37 章（第一版为 17 章），含 ch17 *AIs, LLMs, and God Knows What*、ch25 *Architectural Boundaries*、ch27 *The Clean Architecture*；EPUB 内 `dc:title` 为 "…Second Edition"，`dc:date` 2025。
+版次判定依据：37 章（第一版为 17 章），含 ch17 *AIs, LLMs, and God Knows What*、ch25 *Architectural Boundaries*、ch27 *The Clean Architecture*；EPUB 内 `dc:title` 含 "Second Edition"，`dc:date` 为 2025。
 
 ---
 
@@ -30,24 +30,15 @@ cleancode-2e/
 
 ---
 
-## 源文件指针
+## 源文件
 
-`source/` 与 `en/` 都不进版本库（见根目录 `.gitignore`），这里留校验信息以便换机器时确认是否同一份：
+源 EPUB 是维护者留在本机 `Downloads` 目录的个人副本，**不在版本库内**（`.gitignore` 已排除 `*/source/` 与 `*.epub`）。
 
-| 项 | 值 |
-|---|---|
-| 本机原始路径 | `C:\Users\huchao\Downloads\Clean Code A Handbook of Agile Software Craftsmanship - Second Edition (Robert C. Martin) (z-library.sk, 1lib.sk, z-lib.sk).epub` |
-| 大小 | 17605338 字节 |
-| sha256 | `0c8dffd9585c89704a1d111d0f37b2cab2614a33f6ccaa7eeb6847fe234635a6` |
-| 内部结构 | 37 个 `OEBPS/chNN.html` + 120 张图，OPF 为 `OEBPS/9780135398586.opf` |
+内部结构供重转参考：OPF 位于 `OEBPS/` 下、以该书 ISBN-13 命名，正文为 37 个 `OEBPS/chNN.html`，另有 120 张页面图片。
 
-校验命令：
+文件指纹与精确字节数不写在这里，改记于不入库的本地文件 `source-checksums.local.txt`。
 
-```bash
-sha256sum /mnt/c/Users/huchao/Downloads/Clean\ Code*Second\ Edition*.epub
-```
-
-注：Downloads 里另有一个 `Clean Code.epub`，与上面这份 **md5 相同**，是同一文件的副本；还有一个 4.2 MB 的 `dc:date` 2008 版本，那是**第一版**，不要混用。
+本机 `Downloads` 里同时存在同一份的第二版副本（不同文件名、内容相同）以及一份**第一版** EPUB。重转时按章数判别版本：37 章为第二版，17 章为第一版，不要混用。
 
 ---
 

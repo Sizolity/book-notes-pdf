@@ -15,7 +15,7 @@
 | `apsod-2e/` | A Philosophy of Software Design | 2nd Edition，Yaknyam Press，2021-07-25 | EPUB，自带原生目录 | README |
 | `cleancode-2e/` | Clean Code: A Handbook of Agile Software Craftsmanship | 2nd Edition，Pearson，2025，ISBN 9780135398586 | EPUB，自带原生目录 | README |
 
-前两本走"注入书签"流程（`add-bookmarks.py` + OFFSET 定位），后两本不需要，只记录结构与校验信息。
+前两本走"注入书签"流程（`add-bookmarks.py` + OFFSET 定位），后两本不需要，只记录结构信息。
 
 ---
 
@@ -26,20 +26,14 @@
 ```
 */en/  */zh/  */source/  */extracts/
 *.epub  *.pdf  *.mobi  *.azw3  *.7z
+*.local.txt
 ```
 
-它们是维护者留在本机用于阅读与学习的副本，存放于 `C:\Users\huchao\Downloads\`。本仓库不存储、不镜像、不传播这些文件，也不提供获取它们的下载点。
+它们是维护者留在本机用于阅读与学习的副本。本仓库不存储、不镜像、不传播这些文件，也不提供获取它们的下载点或检索索引。
 
-登记校验值只为一个目的：**换机器或文件被改动后，能确认是不是同一份**。
+因此这里**不登记文件指纹、精确字节数、原始下载文件名或本机绝对路径**——这些组合起来足以唯一定位到具体某一份文件，与"不提供获取途径"矛盾。校验值改放在不入库的本地文件 `source-checksums.local.txt` 中，用途仍是换机器后确认是否同一份。
 
-| 书 | 大小 | sha256 |
-|---|---:|---|
-| 离散数学及其应用 8E（PDF） | 448940605 | `f8f4b3fe9a4f0a728412d91f17352e1d688db3cd5140b6188940c0efc8eb07ea` |
-| Introduction to Linear Algebra 6E（PDF） | 201475187 | `f5927a1af6c0ed0b25a7984899a7cd96e02e05e7c93decf24e58a59fccb2c664` |
-| A Philosophy of Software Design 2E（EPUB） | 2736155 | `9f587b71073a53a7813f4048669ee80ec3183eedd8eeb43736add7601d6b3d21` |
-| Clean Code 2E（EPUB） | 17605338 | `0c8dffd9585c89704a1d111d0f37b2cab2614a33f6ccaa7eeb6847fe234635a6` |
-
-两个 PDF 的体积（428.1 MiB 与 192.1 MiB）本身也超过 GitHub 的 100 MB 单文件限制，无法直接提交；两个 EPUB（2.6 MiB 与 16.8 MiB）不超限，不入库是出于版权而非容量。
+容量方面的客观限制：两个扫描 PDF 均为数百 MB 级，超过 GitHub 的 100 MB 单文件限制，本就无法直接提交；两个 EPUB 只有数 MB 到十余 MB，不入库是出于版权而非容量。
 
 ---
 
@@ -54,9 +48,9 @@
 
 ## 各目录入口
 
-- `discrete-math-8e/README.md` — 数据格式、OFFSET=31 的推导、Docker 旁路注入、610 条书签的构成
-- `linear-algebra-6e/README.md` — OFFSET=11、442 页分段对照、注入命令
-- `apsod-2e/README.md` — 156 条结构统计、节级锚点的取法、源 EPUB 校验
+- `discrete-math-8e/README.md` — 数据格式、OFFSET 的推导、Docker 旁路注入、610 条书签的构成
+- `linear-algebra-6e/README.md` — OFFSET 与页码分段对照、注入命令
+- `apsod-2e/README.md` — 156 条结构统计、节级锚点的取法
 - `cleancode-2e/README.md` — 版次判定依据、121 处图片引用机制、已知 `<span>` 残留
 
 ---

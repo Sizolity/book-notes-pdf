@@ -8,3 +8,7 @@
 *.mobi
 *.azw3
 *.7z
+
+# 本机源文件指纹与路径，仅本地留存
+*.local.txt
+*.local.md

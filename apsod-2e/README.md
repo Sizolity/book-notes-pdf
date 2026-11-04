@@ -43,33 +43,17 @@ apsod-2e/
 
 ---
 
-## 源文件指针
+## 源文件
 
-| 项 | 值 |
-|---|---|
-| 本机原始路径 | `C:\Users\huchao\Downloads\A Philosophy of Software Design (John K. Ousterhout) (z-library.sk, 1lib.sk, z-lib.sk).epub` |
-| 大小 | 2736155 字节 |
-| sha256 | `9f587b71073a53a7813f4048669ee80ec3183eedd8eeb43736add7601d6b3d21` |
-| OPF | `content.opf`（根目录） |
-| 章节文件 | `OEBPS/partNNNN.xhtml`，共 31 个 |
+源 EPUB 是维护者留在本机 `Downloads` 目录的个人副本，**不在版本库内**（`.gitignore` 已排除 `*/source/` 与 `*.epub`）。
 
-校验命令：
+内部结构供重建脚本参考：OPF 位于包内根目录，正文为 31 个 `OEBPS/partNNNN.xhtml`，另有 `toc.ncx`。
 
-```bash
-sha256sum /mnt/c/Users/huchao/Downloads/A\ Philosophy\ of\ Software\ Design*.epub
-```
-
----
-
-## 入库范围（已定）
-
-根目录 `.gitignore` 已忽略 `*/en/`、`*/zh/`、`*/source/`、`*/extracts/` 以及 `*.epub` / `*.pdf` 等源文件格式。**本目录入库的只有本 README。**
-
-理由：`en/`、`zh/`、`extracts/` 是整本书的正文与中文译文，`source/` 是整本 EPUB，都不适合推到远端；与 `discrete-math-8e`、`linear-algebra-6e` 的既有做法一致——那两个目录也只提交了脚本与 TOC JSON，从未提交源 PDF 或正文。
+文件指纹与精确字节数不写在这里，改记于不入库的本地文件 `source-checksums.local.txt`。
 
 ---
 
 ## 已知瑕疵
 
 - `extracts/` 与 `en/` 内容重叠，可删。
-- 曾考虑给 `cleancode-2e` 与本目录统一形状（分语言 `en/`、`zh/`），`cleancode-2e` 只有英文版，故只有 `en/`。
+- 目录形状与 `cleancode-2e` 统一为分语言（`en/`、`zh/`）；`cleancode-2e` 只有英文版，故只有 `en/`。
