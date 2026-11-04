@@ -1,0 +1,10 @@
+# 书本正文与源文件不入库（含整本书的转换文本、译文、书页图片、EPUB/PDF 原件）
+*/en/
+*/zh/
+*/source/
+*/extracts/
+*.epub
+*.pdf
+*.mobi
+*.azw3
+*.7z
