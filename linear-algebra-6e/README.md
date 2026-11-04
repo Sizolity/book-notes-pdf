@@ -54,12 +54,12 @@ Appendix 10 正文从书页 **414** 开始（413 仍是 A9）。
 依赖 `pymupdf`。本机环境若有问题，用 Docker：
 
 ```powershell
-$env:PDF_SRC  = "C:\Users\huchao\Downloads\线性代数 (第6版) (（美）吉尔伯特斯特朗) (z-library.sk 1lib.sk z-lib.sk).pdf"
-$env:PDF_COPY = "C:\Users\huchao\Downloads\Introduction-to-Linear-Algebra-6e-bookmarked.pdf"
+$env:PDF_SRC  = "$env:USERPROFILE\Downloads\线性代数 (第6版).pdf"
+$env:PDF_COPY = "$env:USERPROFILE\Downloads\Introduction-to-Linear-Algebra-6e-bookmarked.pdf"
 $env:TOC_OFFSET = "11"
 
 docker run --rm `
-  -v "C:\Users\huchao\Downloads:/work/downloads" `
+  -v "$env:USERPROFILE\Downloads:/work/downloads" `
   -v "${PWD}:/work/lrmp" `
   -e TOC_OFFSET=11 `
   python:3.12-slim bash -lc `

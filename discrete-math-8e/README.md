@@ -118,7 +118,7 @@ python add-bookmarks.py
 ```powershell
 # 把 Downloads 挂到 /work/downloads，把当前工具目录挂到 /work/lrmp
 docker run --rm `
-  -v "C:\Users\huchao\Downloads:/work/downloads" `
+  -v "$env:USERPROFILE\Downloads:/work/downloads" `
   -v "${PWD}:/work/lrmp" `
   python:3.12-slim bash -lc `
     "pip install -q pymupdf && python /work/lrmp/add-bookmarks.py"

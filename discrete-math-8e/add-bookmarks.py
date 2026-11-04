@@ -15,7 +15,7 @@
 容器运行模板（在工具目录里）：
 
   docker run --rm \\
-    -v "C:\\Users\\huchao\\Downloads:/work/downloads" \\
+    -v "%USERPROFILE%\\Downloads:/work/downloads" \\
     -v "%CD%:/work/lrmp" \\
     python:3.12-slim bash -lc \\
       "pip install -q pymupdf && python /work/lrmp/add-bookmarks.py"

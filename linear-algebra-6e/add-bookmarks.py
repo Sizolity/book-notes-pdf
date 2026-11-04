@@ -1,7 +1,7 @@
 """把 toc-linear-algebra-6e.json 注入为 PDF outline（书签），并就地覆盖原 PDF。
 
-输入（环境变量；不设置时取默认值，对应清华影印第 6 版扫描 PDF + Windows Downloads）：
-  PDF_SRC            原 PDF 绝对路径（容器内）
+输入（环境变量）：
+  PDF_SRC            必填，原 PDF 在容器内的绝对路径；脚本会就地覆盖该文件
   PDF_COPY           带书签副本的输出路径（容器内）
   TOC_OFFSET         book_page → pdf_page 偏移；默认 11（PDF p.12 = 书 p.1）
 
@@ -13,7 +13,7 @@
 容器运行模板（在本目录里，Windows PowerShell）：
 
   docker run --rm `
-    -v "C:\\Users\\huchao\\Downloads:/work/downloads" `
+    -v "$env:USERPROFILE\\Downloads:/work/downloads" `
     -v "${PWD}:/work/lrmp" `
     -e TOC_OFFSET=11 `
     python:3.12-slim bash -lc `
@@ -30,10 +30,10 @@ import fitz  # PyMuPDF
 
 JSON_DOC = Path(__file__).with_name("toc-linear-algebra-6e.json")
 
-PDF_SRC = Path(os.environ.get(
-    "PDF_SRC",
-    "/work/downloads/线性代数 (第6版) (（美）吉尔伯特斯特朗) (z-library.sk 1lib.sk z-lib.sk).pdf",
-))
+src_env = os.environ.get("PDF_SRC")
+if not src_env:
+    raise SystemExit("PDF_SRC must be set: absolute path of the source PDF inside the container")
+PDF_SRC = Path(src_env)
 PDF_COPY = Path(os.environ.get(
     "PDF_COPY",
     "/work/downloads/Introduction-to-Linear-Algebra-6e-bookmarked.pdf",
